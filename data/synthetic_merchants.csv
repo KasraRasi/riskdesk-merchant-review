@@ -1,0 +1,361 @@
+merchant_id,sector,merchant_age_days,kyc_status,registration_status,bank_name_match,invoice_evidence,website_or_market_presence,tx_count_30d,disputes_30d,volume_7d_usd,expected_7d_usd,volume_spike_ratio,evidence_note,ground_truth_fraud
+M-0001,Online Goods,12,Passed,Conflicting,0,Conflicting,None found,68,9,75000,10000,7.5,"Seller identity passed, but invoices and payout name conflict.",1
+M-0002,Food & Market Vendor,430,Passed,Verified,1,Verified,Established,190,0,31000,5500,5.64,Documented weekend market generated legitimate sales spike.,0
+M-0003,Cleaning,35,Passed,Pending clarification,1,Missing / incomplete,Limited,26,0,2700,1700,1.59,New business: incomplete invoice package; follow up before deciding.,0
+M-0004,Cleaning,25,Passed,Conflicting,1,Conflicting,Established,201,2,96584.67,11793,8.19,Ownership or bank details require confirmation.,1
+M-0005,Home Services,395,Passed,Verified,1,Verified,Established,213,0,34339.2,4672,7.35,Rapid but documented growth after a local event.,0
+M-0006,Cleaning,28,Passed,Pending clarification,1,Conflicting,Limited,147,1,73399.84,10988,6.68,Provided invoice details differ across sources.,1
+M-0007,Home Services,2097,Passed,Verified,1,Verified,Established,217,0,4834.3,8335,0.58,No material inconsistency identified yet.,0
+M-0008,Food & Market Vendor,15,Passed,Conflicting,1,Conflicting,None found,244,0,44762.48,11419,3.92,Business footprint is difficult to corroborate.,1
+M-0009,Cleaning,65,Passed,Verified,1,Missing / incomplete,None found,12,3,29453.76,10227,2.88,Business footprint is difficult to corroborate.,1
+M-0010,Mobile Retail,332,Passed,Verified,1,Missing / incomplete,Established,209,0,3157.23,1653,1.91,No material inconsistency identified yet.,0
+M-0011,Home Services,2218,Passed,Verified,1,Missing / incomplete,Established,94,0,14643.84,12624,1.16,Ordinary activity for declared business type.,0
+M-0012,Mobile Retail,2278,Passed,Pending clarification,1,Missing / incomplete,Established,196,0,4221.0,4020,1.05,No material inconsistency identified yet.,0
+M-0013,Mobile Retail,551,Passed,Verified,1,Verified,Established,136,0,20450.69,12101,1.69,Supplied business details largely corroborate.,0
+M-0014,Online Goods,231,Passed,Verified,1,Verified,Established,30,0,14102.5,11282,1.25,Supplied business details largely corroborate.,0
+M-0015,Professional Services,1033,Passed,Verified,1,Verified,Established,155,0,21573.96,14577,1.48,Ordinary activity for declared business type.,0
+M-0016,Professional Services,1981,Passed,Pending clarification,1,Conflicting,Established,215,0,1725.92,3752,0.46,Ordinary activity for declared business type.,0
+M-0017,Home Services,249,Further review,Verified,1,Missing / incomplete,Established,95,0,11102.46,9739,1.14,Ordinary activity for declared business type.,0
+M-0018,Food & Market Vendor,9,Passed,Verified,0,Conflicting,Limited,138,3,102260.48,11312,9.04,Provided invoice details differ across sources.,1
+M-0019,Online Goods,1296,Further review,Verified,1,Verified,Established,180,0,3619.2,4160,0.87,Ordinary activity for declared business type.,0
+M-0020,Home Services,2082,Passed,Verified,1,Missing / incomplete,Established,32,1,3446.25,4595,0.75,No material inconsistency identified yet.,0
+M-0021,Online Goods,2281,Passed,Verified,1,Verified,Established,42,1,6701.5,5155,1.3,Supplied business details largely corroborate.,0
+M-0022,Cleaning,218,Passed,Verified,1,Verified,Established,26,0,2643.0,1762,1.5,Supplied business details largely corroborate.,0
+M-0023,Food & Market Vendor,318,Further review,Verified,1,Verified,Limited,164,0,18092.95,15733,1.15,Ordinary activity for declared business type.,0
+M-0024,Home Services,32,Passed,Conflicting,1,Conflicting,Established,133,5,72650.5,11177,6.5,Provided invoice details differ across sources.,1
+M-0025,Professional Services,261,Passed,Verified,1,Verified,Established,24,1,22504.27,4621,4.87,Weekend market event explains temporary demand surge.,0
+M-0026,Online Goods,801,Passed,Verified,1,Conflicting,Established,212,0,3524.56,6778,0.52,Ordinary activity for declared business type.,0
+M-0027,Cleaning,23,Passed,Pending clarification,0,Missing / incomplete,Limited,188,5,24014.52,9762,2.46,Provided invoice details differ across sources.,1
+M-0028,Professional Services,16,Passed,Verified,1,Verified,Limited,199,2,14116.48,8768,1.61,No material inconsistency identified yet.,0
+M-0029,Food & Market Vendor,1240,Passed,Verified,1,Verified,Established,118,0,7274.3,8558,0.85,Ordinary activity for declared business type.,0
+M-0030,Cleaning,1673,Passed,Verified,1,Verified,Established,68,0,11810.56,9227,1.28,Supplied business details largely corroborate.,0
+M-0031,Online Goods,93,Further review,Verified,1,Verified,Established,207,0,22584.39,4899,4.61,Rapid but documented growth after a local event.,0
+M-0032,Food & Market Vendor,59,Passed,Conflicting,0,Conflicting,None found,265,2,51180.8,7040,7.27,Provided invoice details differ across sources.,1
+M-0033,Online Goods,2131,Passed,Verified,1,Conflicting,Established,46,0,5738.53,7861,0.73,Supplied business details largely corroborate.,0
+M-0034,Online Goods,2077,Passed,Verified,1,Verified,Established,55,1,10571.86,7241,1.46,No material inconsistency identified yet.,0
+M-0035,Home Services,1134,Passed,Verified,1,Verified,Established,84,0,5517.44,7456,0.74,Ordinary activity for declared business type.,0
+M-0036,Professional Services,1365,Passed,Pending clarification,1,Verified,Limited,122,0,8957.2,9140,0.98,Supplied business details largely corroborate.,0
+M-0037,Cleaning,1233,Passed,Verified,1,Missing / incomplete,Established,122,0,7430.46,12594,0.59,Supplied business details largely corroborate.,0
+M-0038,Cleaning,2749,Passed,Verified,1,Missing / incomplete,Established,134,1,19795.98,11377,1.74,Ordinary activity for declared business type.,0
+M-0039,Home Services,1901,Passed,Verified,1,Verified,Limited,69,0,2226.63,3227,0.69,Ordinary activity for declared business type.,0
+M-0040,Online Goods,2219,Passed,Verified,0,Missing / incomplete,Established,181,0,1566.26,1103,1.42,Supplied business details largely corroborate.,0
+M-0041,Mobile Retail,902,Passed,Verified,1,Verified,Established,57,0,12196.95,7869,1.55,No material inconsistency identified yet.,0
+M-0042,Cleaning,2368,Passed,Verified,1,Verified,Established,198,0,15885.8,11347,1.4,No material inconsistency identified yet.,0
+M-0043,Food & Market Vendor,2328,Passed,Verified,1,Missing / incomplete,Limited,184,0,7843.2,13072,0.6,Supplied business details largely corroborate.,0
+M-0044,Professional Services,636,Passed,Verified,1,Verified,Established,181,0,5243.35,7385,0.71,Supplied business details largely corroborate.,0
+M-0045,Home Services,364,Passed,Verified,1,Verified,Established,133,0,6264.7,4819,1.3,Supplied business details largely corroborate.,0
+M-0046,Cleaning,289,Passed,Verified,1,Verified,Established,180,0,61094.68,9356,6.53,Rapid but documented growth after a local event.,0
+M-0047,Professional Services,2277,Passed,Verified,1,Verified,Established,131,0,9305.92,8948,1.04,No material inconsistency identified yet.,0
+M-0048,Home Services,1993,Passed,Verified,1,Verified,Established,40,1,4875.6,4780,1.02,Ordinary activity for declared business type.,0
+M-0049,Mobile Retail,38,Passed,Conflicting,0,Verified,None found,252,3,19849.2,11676,1.7,Business footprint is difficult to corroborate.,1
+M-0050,Food & Market Vendor,2373,Passed,Verified,1,Verified,Established,159,2,11829.44,10562,1.12,No material inconsistency identified yet.,0
+M-0051,Mobile Retail,1568,Passed,Verified,1,Verified,Established,165,3,10301.85,7631,1.35,Ordinary activity for declared business type.,0
+M-0052,Cleaning,2715,Passed,Verified,1,Verified,Established,34,0,1279.8,1580,0.81,Supplied business details largely corroborate.,0
+M-0053,Professional Services,246,Passed,Verified,1,Verified,Limited,220,2,92014.26,15387,5.98,Weekend market event explains temporary demand surge.,0
+M-0054,Cleaning,2447,Passed,Verified,1,Verified,Established,92,0,11768.8,12520,0.94,Supplied business details largely corroborate.,0
+M-0055,Mobile Retail,33,Passed,Verified,1,Verified,Established,165,2,13007.7,1746,7.45,Seasonal bookings and event calendar support spike.,0
+M-0056,Professional Services,1149,Passed,Verified,1,Verified,Established,140,2,5060.11,3223,1.57,Supplied business details largely corroborate.,0
+M-0057,Cleaning,417,Passed,Conflicting,1,Verified,Established,212,0,46575.97,13579,3.43,Weekend market event explains temporary demand surge.,0
+M-0058,Mobile Retail,2051,Further review,Verified,1,Verified,Established,83,0,10181.12,10496,0.97,No material inconsistency identified yet.,0
+M-0059,Online Goods,325,Passed,Verified,1,Verified,Established,44,0,37188.74,9274,4.01,Seasonal bookings and event calendar support spike.,0
+M-0060,Professional Services,1944,Passed,Verified,1,Missing / incomplete,Established,63,2,4115.71,4243,0.97,Supplied business details largely corroborate.,0
+M-0061,Mobile Retail,1104,Passed,Verified,1,Verified,Established,183,0,20676.43,13693,1.51,Supplied business details largely corroborate.,0
+M-0062,Home Services,31,Further review,Pending clarification,1,Conflicting,None found,254,5,46647.3,9618,4.85,Provided invoice details differ across sources.,1
+M-0063,Home Services,65,Passed,Conflicting,0,Conflicting,Established,245,0,82129.32,9919,8.28,Provided invoice details differ across sources.,1
+M-0064,Online Goods,1638,Passed,Verified,1,Verified,Established,187,1,7845.12,10896,0.72,Ordinary activity for declared business type.,0
+M-0065,Home Services,2595,Passed,Verified,1,Verified,Established,40,1,14328.75,11463,1.25,Supplied business details largely corroborate.,0
+M-0066,Cleaning,390,Passed,Verified,1,Verified,Established,217,0,42813.16,7306,5.86,Rapid but documented growth after a local event.,0
+M-0067,Professional Services,2622,Further review,Verified,1,Verified,Limited,220,0,4146.34,4411,0.94,Supplied business details largely corroborate.,0
+M-0068,Professional Services,1034,Passed,Verified,1,Verified,Established,113,1,9667.5,7734,1.25,Ordinary activity for declared business type.,0
+M-0069,Online Goods,51,Passed,Conflicting,1,Conflicting,None found,109,3,37691.18,4747,7.94,Ownership or bank details require confirmation.,1
+M-0070,Cleaning,1815,Passed,Verified,1,Verified,Established,38,1,931.32,796,1.17,Supplied business details largely corroborate.,0
+M-0071,Cleaning,683,Passed,Verified,1,Verified,Established,101,1,6288.6,4460,1.41,No material inconsistency identified yet.,0
+M-0072,Mobile Retail,47,Passed,Conflicting,1,Verified,Limited,146,3,11964.68,1729,6.92,Ownership or bank details require confirmation.,1
+M-0073,Mobile Retail,916,Passed,Verified,0,Conflicting,Established,119,0,14662.35,10861,1.35,No material inconsistency identified yet.,0
+M-0074,Professional Services,1529,Passed,Verified,1,Verified,Established,201,0,11796.75,11235,1.05,Ordinary activity for declared business type.,0
+M-0075,Home Services,462,Passed,Verified,1,Verified,Established,109,0,128166.3,15823,8.1,Seasonal bookings and event calendar support spike.,0
+M-0076,Home Services,2638,Passed,Verified,1,Verified,Limited,216,0,11263.35,10727,1.05,No material inconsistency identified yet.,0
+M-0077,Home Services,1355,Passed,Verified,1,Verified,Established,79,1,10478.97,12937,0.81,No material inconsistency identified yet.,0
+M-0078,Home Services,1096,Passed,Verified,1,Verified,Established,44,1,797.76,1108,0.72,No material inconsistency identified yet.,0
+M-0079,Online Goods,2145,Passed,Verified,1,Verified,Established,30,3,2855.05,5191,0.55,Ordinary activity for declared business type.,0
+M-0080,Home Services,279,Passed,Verified,1,Verified,Established,155,0,1691.41,2317,0.73,No material inconsistency identified yet.,0
+M-0081,Online Goods,2676,Passed,Verified,1,Missing / incomplete,Established,70,0,23993.2,14630,1.64,Supplied business details largely corroborate.,0
+M-0082,Online Goods,1054,Passed,Verified,1,Verified,Established,36,0,6318.18,6382,0.99,No material inconsistency identified yet.,0
+M-0083,Online Goods,510,Passed,Verified,1,Verified,Established,207,0,5584.0,6980,0.8,No material inconsistency identified yet.,0
+M-0084,Online Goods,1985,Further review,Verified,1,Verified,Limited,157,0,5179.68,3924,1.32,No material inconsistency identified yet.,0
+M-0085,Online Goods,2290,Passed,Verified,1,Verified,Established,192,0,802.4,680,1.18,Ordinary activity for declared business type.,0
+M-0086,Professional Services,295,Passed,Verified,1,Verified,Established,111,0,1647.36,2574,0.64,Ordinary activity for declared business type.,0
+M-0087,Home Services,21,Passed,Verified,0,Conflicting,Established,229,3,47287.5,12610,3.75,Provided invoice details differ across sources.,1
+M-0088,Mobile Retail,546,Passed,Verified,1,Verified,Established,29,0,90781.6,11180,8.12,Weekend market event explains temporary demand surge.,0
+M-0089,Professional Services,729,Passed,Verified,1,Verified,Established,143,0,1916.46,2366,0.81,Supplied business details largely corroborate.,0
+M-0090,Cleaning,55,Passed,Conflicting,0,Missing / incomplete,None found,22,12,37515.16,9644,3.89,Provided invoice details differ across sources.,1
+M-0091,Home Services,56,Passed,Verified,1,Conflicting,Limited,185,1,83935.04,9898,8.48,Provided invoice details differ across sources.,1
+M-0092,Online Goods,614,Passed,Verified,1,Verified,Established,59,0,3131.96,4121,0.76,No material inconsistency identified yet.,0
+M-0093,Professional Services,585,Passed,Verified,1,Verified,Established,175,0,80556.48,10784,7.47,Seasonal bookings and event calendar support spike.,0
+M-0094,Cleaning,1901,Passed,Verified,1,Verified,Established,88,0,5281.26,7654,0.69,No material inconsistency identified yet.,0
+M-0095,Online Goods,6,Further review,Pending clarification,1,Conflicting,None found,255,3,23539.62,7618,3.09,Business footprint is difficult to corroborate.,1
+M-0096,Home Services,170,Passed,Verified,1,Verified,Established,108,0,4438.27,4309,1.03,No material inconsistency identified yet.,0
+M-0097,Cleaning,397,Passed,Verified,1,Verified,Established,200,1,10705.74,9391,1.14,Supplied business details largely corroborate.,0
+M-0098,Online Goods,2722,Passed,Verified,1,Verified,Established,36,0,3468.92,6671,0.52,No material inconsistency identified yet.,0
+M-0099,Mobile Retail,12,Passed,Conflicting,0,Verified,None found,104,8,18851.16,10834,1.74,Provided invoice details differ across sources.,1
+M-0100,Food & Market Vendor,65,Passed,Pending clarification,1,Verified,Established,184,8,74188.8,12880,5.76,Ownership or bank details require confirmation.,1
+M-0101,Home Services,51,Passed,Verified,1,Verified,Established,171,0,56127.24,6981,8.04,Seasonal bookings and event calendar support spike.,0
+M-0102,Home Services,48,Passed,Conflicting,1,Verified,Limited,226,12,52497.06,11363,4.62,Provided invoice details differ across sources.,1
+M-0103,Food & Market Vendor,2123,Passed,Pending clarification,1,Verified,Established,146,0,10362.35,14195,0.73,Ordinary activity for declared business type.,0
+M-0104,Professional Services,2066,Passed,Verified,1,Verified,Established,40,1,5993.44,6376,0.94,No material inconsistency identified yet.,0
+M-0105,Online Goods,61,Passed,Pending clarification,1,Verified,Limited,88,3,13298.25,7599,1.75,Business footprint is difficult to corroborate.,1
+M-0106,Online Goods,2561,Passed,Verified,1,Verified,Established,176,0,7739.0,7739,1.0,Supplied business details largely corroborate.,0
+M-0107,Online Goods,360,Passed,Verified,1,Verified,None found,144,0,9090.78,8826,1.03,Ordinary activity for declared business type.,0
+M-0108,Food & Market Vendor,1422,Passed,Verified,1,Verified,Established,212,0,5796.0,4200,1.38,No material inconsistency identified yet.,0
+M-0109,Online Goods,1970,Passed,Verified,1,Verified,Established,198,1,8798.0,10600,0.83,Supplied business details largely corroborate.,0
+M-0110,Mobile Retail,1949,Passed,Verified,1,Verified,Limited,27,1,1980.0,4400,0.45,Supplied business details largely corroborate.,0
+M-0111,Home Services,2042,Passed,Verified,1,Verified,None found,147,0,11356.24,11588,0.98,Supplied business details largely corroborate.,0
+M-0112,Food & Market Vendor,1353,Passed,Verified,1,Verified,Limited,198,0,9194.74,11078,0.83,Supplied business details largely corroborate.,0
+M-0113,Food & Market Vendor,317,Passed,Verified,1,Missing / incomplete,Established,220,1,12595.52,11246,1.12,Ordinary activity for declared business type.,0
+M-0114,Online Goods,1510,Passed,Verified,1,Verified,Established,169,0,5379.21,6183,0.87,Supplied business details largely corroborate.,0
+M-0115,Online Goods,1151,Passed,Verified,1,Verified,Established,158,0,3124.08,4339,0.72,Supplied business details largely corroborate.,0
+M-0116,Home Services,313,Passed,Conflicting,1,Verified,Established,37,1,4287.36,7656,0.56,Supplied business details largely corroborate.,0
+M-0117,Home Services,23,Further review,Pending clarification,1,Missing / incomplete,Limited,83,2,124313.14,13253,9.38,Business footprint is difficult to corroborate.,1
+M-0118,Food & Market Vendor,279,Passed,Verified,1,Verified,None found,137,0,4413.11,5317,0.83,Supplied business details largely corroborate.,0
+M-0119,Mobile Retail,1421,Passed,Verified,1,Verified,Established,48,0,2563.68,2352,1.09,Supplied business details largely corroborate.,0
+M-0120,Home Services,45,Further review,Pending clarification,0,Missing / incomplete,Established,152,1,104417.26,15773,6.62,Business footprint is difficult to corroborate.,1
+M-0121,Mobile Retail,2488,Passed,Verified,1,Verified,Established,22,0,8671.5,5781,1.5,No material inconsistency identified yet.,0
+M-0122,Professional Services,2578,Passed,Verified,1,Verified,Established,190,0,8820.48,9188,0.96,Supplied business details largely corroborate.,0
+M-0123,Cleaning,1317,Passed,Verified,1,Verified,Established,117,0,18050.13,12279,1.47,Ordinary activity for declared business type.,0
+M-0124,Food & Market Vendor,1198,Passed,Verified,1,Missing / incomplete,Established,78,2,13535.54,15739,0.86,Ordinary activity for declared business type.,0
+M-0125,Mobile Retail,1922,Passed,Pending clarification,1,Verified,Established,38,2,12378.87,8421,1.47,Supplied business details largely corroborate.,0
+M-0126,Online Goods,2764,Passed,Verified,1,Verified,Established,118,0,6606.8,7960,0.83,No material inconsistency identified yet.,0
+M-0127,Mobile Retail,1155,Passed,Verified,1,Verified,Established,101,0,10603.67,13771,0.77,Ordinary activity for declared business type.,0
+M-0128,Cleaning,1950,Passed,Verified,1,Verified,Established,146,0,8320.1,8758,0.95,No material inconsistency identified yet.,0
+M-0129,Mobile Retail,2190,Passed,Pending clarification,1,Verified,Established,19,0,9681.75,8275,1.17,No material inconsistency identified yet.,0
+M-0130,Mobile Retail,1953,Passed,Verified,1,Verified,Established,199,0,6440.0,4600,1.4,No material inconsistency identified yet.,0
+M-0131,Mobile Retail,460,Passed,Verified,1,Verified,Established,53,0,2362.5,3375,0.7,No material inconsistency identified yet.,0
+M-0132,Home Services,2134,Passed,Verified,1,Verified,Limited,59,0,3574.06,3647,0.98,No material inconsistency identified yet.,0
+M-0133,Professional Services,797,Passed,Verified,1,Verified,Established,72,2,11791.9,15935,0.74,Supplied business details largely corroborate.,0
+M-0134,Online Goods,1130,Passed,Verified,1,Verified,Established,112,1,2730.75,4965,0.55,No material inconsistency identified yet.,0
+M-0135,Professional Services,2696,Passed,Verified,1,Verified,Established,152,0,5252.18,4451,1.18,Ordinary activity for declared business type.,0
+M-0136,Mobile Retail,934,Passed,Verified,1,Verified,Established,99,0,9203.72,10702,0.86,Supplied business details largely corroborate.,0
+M-0137,Professional Services,1965,Passed,Verified,1,Verified,Limited,211,0,8399.16,10908,0.77,Ordinary activity for declared business type.,0
+M-0138,Home Services,158,Passed,Verified,1,Verified,Established,206,2,12555.0,13950,0.9,Supplied business details largely corroborate.,0
+M-0139,Online Goods,2235,Passed,Verified,1,Verified,Established,144,0,8398.0,8840,0.95,Ordinary activity for declared business type.,0
+M-0140,Cleaning,1218,Passed,Verified,1,Verified,Established,171,1,10698.24,9552,1.12,Ordinary activity for declared business type.,0
+M-0141,Professional Services,42,Passed,Conflicting,0,Verified,None found,148,8,53913.72,15582,3.46,Business footprint is difficult to corroborate.,1
+M-0142,Professional Services,1266,Passed,Verified,1,Missing / incomplete,Established,195,1,2608.06,2866,0.91,Ordinary activity for declared business type.,0
+M-0143,Professional Services,2491,Passed,Verified,1,Verified,Established,135,1,5797.61,6371,0.91,Ordinary activity for declared business type.,0
+M-0144,Mobile Retail,1491,Passed,Verified,1,Verified,Established,57,0,1100.88,1529,0.72,No material inconsistency identified yet.,0
+M-0145,Food & Market Vendor,1867,Passed,Verified,1,Verified,Established,29,0,2435.11,2411,1.01,Ordinary activity for declared business type.,0
+M-0146,Food & Market Vendor,1745,Passed,Pending clarification,1,Verified,Established,30,2,7367.5,5894,1.25,No material inconsistency identified yet.,0
+M-0147,Online Goods,54,Passed,Conflicting,1,Verified,None found,204,0,54080.95,6385,8.47,Ownership or bank details require confirmation.,1
+M-0148,Home Services,922,Passed,Verified,1,Verified,Established,154,0,10166.71,13927,0.73,No material inconsistency identified yet.,0
+M-0149,Food & Market Vendor,436,Passed,Verified,1,Verified,Established,204,0,31591.44,10324,3.06,Seasonal bookings and event calendar support spike.,0
+M-0150,Online Goods,2369,Passed,Conflicting,1,Verified,Established,97,0,6514.06,5474,1.19,No material inconsistency identified yet.,0
+M-0151,Online Goods,23,Passed,Pending clarification,0,Verified,Limited,207,5,20696.82,10506,1.97,Provided invoice details differ across sources.,1
+M-0152,Home Services,1241,Passed,Verified,1,Verified,Established,29,0,24737.27,14299,1.73,No material inconsistency identified yet.,0
+M-0153,Professional Services,1529,Passed,Verified,1,Missing / incomplete,Established,28,0,1958.04,1764,1.11,No material inconsistency identified yet.,0
+M-0154,Home Services,220,Passed,Verified,1,Conflicting,Established,69,2,111756.45,14495,7.71,Rapid but documented growth after a local event.,0
+M-0155,Professional Services,572,Passed,Pending clarification,1,Verified,Limited,106,0,31347.92,5519,5.68,Seasonal bookings and event calendar support spike.,0
+M-0156,Cleaning,41,Further review,Pending clarification,0,Verified,Limited,90,1,51255.99,7031,7.29,Provided invoice details differ across sources.,1
+M-0157,Professional Services,2638,Further review,Verified,1,Verified,Limited,218,0,12243.33,12367,0.99,Ordinary activity for declared business type.,0
+M-0158,Food & Market Vendor,2747,Passed,Verified,1,Verified,Established,176,0,1315.44,1044,1.26,No material inconsistency identified yet.,0
+M-0159,Professional Services,63,Passed,Pending clarification,0,Verified,Limited,61,3,4456.53,507,8.79,Business footprint is difficult to corroborate.,1
+M-0160,Professional Services,1890,Passed,Verified,1,Missing / incomplete,Established,91,0,6178.9,9506,0.65,Supplied business details largely corroborate.,0
+M-0161,Professional Services,239,Passed,Pending clarification,1,Missing / incomplete,Limited,215,0,10682.0,10682,1.0,No material inconsistency identified yet.,0
+M-0162,Professional Services,35,Further review,Verified,0,Conflicting,None found,173,0,6881.6,1012,6.8,Provided invoice details differ across sources.,1
+M-0163,Home Services,2331,Passed,Verified,1,Conflicting,Established,153,0,24367.0,13924,1.75,Supplied business details largely corroborate.,0
+M-0164,Professional Services,960,Further review,Verified,1,Verified,Established,172,2,8114.2,13990,0.58,Supplied business details largely corroborate.,0
+M-0165,Mobile Retail,1547,Passed,Verified,1,Verified,Established,112,0,4981.0,7325,0.68,No material inconsistency identified yet.,0
+M-0166,Home Services,331,Passed,Verified,1,Verified,Established,48,0,26237.34,6159,4.26,Rapid but documented growth after a local event.,0
+M-0167,Mobile Retail,1338,Passed,Verified,1,Conflicting,Established,114,1,13248.92,14401,0.92,No material inconsistency identified yet.,0
+M-0168,Home Services,1111,Passed,Verified,1,Verified,Established,57,0,4509.21,5183,0.87,No material inconsistency identified yet.,0
+M-0169,Mobile Retail,810,Passed,Verified,1,Verified,Established,116,0,5813.25,7751,0.75,No material inconsistency identified yet.,0
+M-0170,Home Services,39,Passed,Conflicting,0,Missing / incomplete,Limited,215,12,29606.14,5503,5.38,Provided invoice details differ across sources.,1
+M-0171,Professional Services,1505,Passed,Verified,1,Verified,Limited,154,0,2791.8,2115,1.32,Supplied business details largely corroborate.,0
+M-0172,Food & Market Vendor,53,Passed,Verified,1,Conflicting,Limited,90,5,39578.76,11276,3.51,Ownership or bank details require confirmation.,1
+M-0173,Online Goods,54,Further review,Verified,1,Conflicting,Established,67,5,57597.53,9157,6.29,Ownership or bank details require confirmation.,1
+M-0174,Cleaning,1773,Passed,Verified,1,Verified,Established,163,0,2004.85,1985,1.01,Ordinary activity for declared business type.,0
+M-0175,Food & Market Vendor,1987,Passed,Verified,1,Verified,Established,102,0,2354.4,1962,1.2,Supplied business details largely corroborate.,0
+M-0176,Food & Market Vendor,481,Passed,Verified,1,Verified,Established,188,1,1035.4,620,1.67,Supplied business details largely corroborate.,0
+M-0177,Home Services,52,Passed,Verified,0,Verified,Limited,113,3,52940.67,10567,5.01,Business footprint is difficult to corroborate.,1
+M-0178,Mobile Retail,775,Passed,Pending clarification,1,Verified,Established,82,0,5306.55,6243,0.85,Ordinary activity for declared business type.,0
+M-0179,Professional Services,2538,Passed,Verified,1,Verified,Established,91,1,5321.48,3076,1.73,Supplied business details largely corroborate.,0
+M-0180,Mobile Retail,435,Passed,Pending clarification,1,Verified,Established,177,0,38079.8,10021,3.8,Weekend market event explains temporary demand surge.,0
+M-0181,Professional Services,2547,Passed,Verified,1,Verified,Established,113,2,1116.72,1128,0.99,Supplied business details largely corroborate.,0
+M-0182,Mobile Retail,136,Passed,Verified,1,Verified,Established,85,0,16079.69,13289,1.21,No material inconsistency identified yet.,0
+M-0183,Food & Market Vendor,1107,Passed,Conflicting,1,Verified,Limited,209,0,14114.41,12949,1.09,Supplied business details largely corroborate.,0
+M-0184,Food & Market Vendor,58,Passed,Conflicting,1,Conflicting,Limited,133,1,23093.85,4555,5.07,Ownership or bank details require confirmation.,1
+M-0185,Home Services,857,Passed,Pending clarification,1,Verified,Established,86,0,9546.66,13446,0.71,No material inconsistency identified yet.,0
+M-0186,Online Goods,13,Passed,Conflicting,1,Conflicting,Limited,86,5,20855.24,2471,8.44,Provided invoice details differ across sources.,1
+M-0187,Professional Services,1861,Passed,Verified,1,Missing / incomplete,Established,38,0,2631.99,1487,1.77,No material inconsistency identified yet.,0
+M-0188,Online Goods,391,Passed,Verified,1,Verified,Established,218,0,24083.25,12225,1.97,Supplied business details largely corroborate.,0
+M-0189,Home Services,2328,Passed,Verified,0,Missing / incomplete,Established,189,1,14073.84,14216,0.99,Ordinary activity for declared business type.,0
+M-0190,Food & Market Vendor,1762,Passed,Verified,1,Verified,Established,85,0,4740.12,3564,1.33,No material inconsistency identified yet.,0
+M-0191,Online Goods,969,Passed,Verified,1,Verified,Established,15,0,9539.42,7282,1.31,Supplied business details largely corroborate.,0
+M-0192,Professional Services,496,Passed,Verified,1,Verified,Established,41,0,10081.5,1410,7.15,Rapid but documented growth after a local event.,0
+M-0193,Mobile Retail,2317,Passed,Verified,1,Verified,Established,104,1,415.16,388,1.07,Ordinary activity for declared business type.,0
+M-0194,Home Services,16,Passed,Verified,1,Conflicting,None found,83,2,49445.91,9909,4.99,Ownership or bank details require confirmation.,1
+M-0195,Online Goods,1245,Passed,Verified,1,Verified,Established,206,0,3688.32,3616,1.02,Ordinary activity for declared business type.,0
+M-0196,Mobile Retail,300,Passed,Verified,1,Verified,Established,114,1,8014.5,8905,0.9,Ordinary activity for declared business type.,0
+M-0197,Food & Market Vendor,66,Passed,Verified,1,Verified,Established,88,0,6681.15,4545,1.47,No material inconsistency identified yet.,0
+M-0198,Food & Market Vendor,1279,Passed,Verified,1,Missing / incomplete,Established,54,0,1559.44,1544,1.01,No material inconsistency identified yet.,0
+M-0199,Home Services,247,Passed,Verified,1,Verified,Established,131,0,2935.95,4255,0.69,Ordinary activity for declared business type.,0
+M-0200,Home Services,362,Passed,Verified,1,Missing / incomplete,Established,110,0,37035.6,8818,4.2,Seasonal bookings and event calendar support spike.,0
+M-0201,Food & Market Vendor,1087,Passed,Verified,1,Verified,Established,29,0,11920.0,11920,1.0,No material inconsistency identified yet.,0
+M-0202,Online Goods,2094,Passed,Pending clarification,1,Verified,Limited,113,2,227.76,292,0.78,No material inconsistency identified yet.,0
+M-0203,Cleaning,1026,Passed,Verified,1,Verified,Established,34,0,9684.53,7069,1.37,Ordinary activity for declared business type.,0
+M-0204,Food & Market Vendor,60,Passed,Pending clarification,0,Missing / incomplete,Limited,245,0,60499.41,14439,4.19,Ownership or bank details require confirmation.,1
+M-0205,Home Services,32,Passed,Conflicting,0,Conflicting,None found,16,8,9343.04,2716,3.44,Ownership or bank details require confirmation.,1
+M-0206,Professional Services,63,Passed,Conflicting,0,Verified,Established,223,5,142062.24,15998,8.88,Provided invoice details differ across sources.,1
+M-0207,Mobile Retail,265,Passed,Verified,1,Verified,Established,89,0,8113.6,7376,1.1,Supplied business details largely corroborate.,0
+M-0208,Home Services,567,Passed,Verified,1,Verified,None found,42,0,15242.76,13028,1.17,Supplied business details largely corroborate.,0
+M-0209,Food & Market Vendor,380,Passed,Verified,0,Verified,Established,195,0,3568.32,2832,1.26,Supplied business details largely corroborate.,0
+M-0210,Food & Market Vendor,2783,Passed,Verified,1,Verified,Established,130,0,3447.82,5146,0.67,Ordinary activity for declared business type.,0
+M-0211,Home Services,17,Further review,Conflicting,0,Verified,Established,55,3,23003.68,3496,6.58,Provided invoice details differ across sources.,1
+M-0212,Food & Market Vendor,132,Passed,Verified,1,Verified,Established,142,0,6367.79,949,6.71,Weekend market event explains temporary demand surge.,0
+M-0213,Mobile Retail,2537,Passed,Verified,1,Verified,Established,155,0,4960.16,4276,1.16,Ordinary activity for declared business type.,0
+M-0214,Mobile Retail,89,Passed,Verified,1,Verified,Established,154,1,8145.0,6516,1.25,No material inconsistency identified yet.,0
+M-0215,Cleaning,249,Passed,Conflicting,1,Verified,Limited,217,1,15117.76,13498,1.12,Supplied business details largely corroborate.,0
+M-0216,Home Services,23,Passed,Pending clarification,0,Verified,None found,26,5,29328.75,4125,7.11,Provided invoice details differ across sources.,1
+M-0217,Home Services,2018,Passed,Verified,1,Verified,Limited,71,0,661.96,871,0.76,Ordinary activity for declared business type.,0
+M-0218,Cleaning,8,Passed,Conflicting,0,Missing / incomplete,Established,198,12,1656.48,609,2.72,Business footprint is difficult to corroborate.,1
+M-0219,Online Goods,56,Passed,Verified,1,Missing / incomplete,None found,194,1,54346.53,13223,4.11,Ownership or bank details require confirmation.,1
+M-0220,Online Goods,2356,Passed,Verified,1,Verified,Limited,96,2,6931.6,6665,1.04,No material inconsistency identified yet.,0
+M-0221,Cleaning,1318,Passed,Verified,1,Verified,Established,201,1,4950.0,3000,1.65,Ordinary activity for declared business type.,0
+M-0222,Food & Market Vendor,455,Passed,Verified,1,Verified,Established,111,0,61750.08,12252,5.04,Weekend market event explains temporary demand surge.,0
+M-0223,Food & Market Vendor,146,Further review,Pending clarification,1,Conflicting,Established,111,0,3709.13,5081,0.73,Supplied business details largely corroborate.,0
+M-0224,Professional Services,175,Passed,Verified,1,Missing / incomplete,Established,67,2,34170.0,10200,3.35,Seasonal bookings and event calendar support spike.,0
+M-0225,Food & Market Vendor,1619,Passed,Verified,1,Verified,Established,28,0,10097.85,9617,1.05,Ordinary activity for declared business type.,0
+M-0226,Online Goods,1205,Passed,Verified,1,Verified,Established,215,0,1560.16,1592,0.98,Supplied business details largely corroborate.,0
+M-0227,Professional Services,192,Passed,Verified,1,Verified,Established,83,0,4380.48,4563,0.96,Supplied business details largely corroborate.,0
+M-0228,Mobile Retail,30,Passed,Verified,0,Missing / incomplete,None found,255,3,53403.6,9320,5.73,Ownership or bank details require confirmation.,1
+M-0229,Mobile Retail,19,Further review,Pending clarification,0,Conflicting,Limited,120,5,20202.0,2220,9.1,Ownership or bank details require confirmation.,1
+M-0230,Mobile Retail,1066,Passed,Verified,1,Missing / incomplete,Established,116,0,3786.72,5488,0.69,No material inconsistency identified yet.,0
+M-0231,Professional Services,470,Passed,Pending clarification,1,Verified,Established,164,1,4646.4,7040,0.66,No material inconsistency identified yet.,0
+M-0232,Professional Services,34,Passed,Conflicting,1,Missing / incomplete,Limited,153,2,34843.5,6525,5.34,Ownership or bank details require confirmation.,1
+M-0233,Online Goods,1956,Passed,Verified,1,Verified,Established,101,1,12728.88,15336,0.83,Ordinary activity for declared business type.,0
+M-0234,Online Goods,1824,Passed,Verified,1,Missing / incomplete,Established,121,0,16293.06,12931,1.26,No material inconsistency identified yet.,0
+M-0235,Food & Market Vendor,21,Passed,Verified,1,Verified,Established,26,1,3537.75,1325,2.67,Provided invoice details differ across sources.,1
+M-0236,Cleaning,482,Passed,Verified,1,Missing / incomplete,Established,76,0,55242.0,8525,6.48,Weekend market event explains temporary demand surge.,0
+M-0237,Cleaning,12,Passed,Conflicting,1,Conflicting,None found,149,3,16629.6,4920,3.38,Business footprint is difficult to corroborate.,1
+M-0238,Mobile Retail,44,Passed,Verified,1,Missing / incomplete,Limited,93,0,2036.32,3916,0.52,Ordinary activity for declared business type.,0
+M-0239,Online Goods,2142,Passed,Verified,1,Verified,Established,16,0,16093.35,13755,1.17,Supplied business details largely corroborate.,0
+M-0240,Professional Services,351,Passed,Verified,1,Verified,Established,197,2,20119.59,4779,4.21,Rapid but documented growth after a local event.,0
+M-0241,Cleaning,2798,Passed,Verified,1,Verified,Established,90,0,3533.38,2542,1.39,Ordinary activity for declared business type.,0
+M-0242,Online Goods,920,Passed,Verified,1,Verified,Established,186,0,12528.46,11494,1.09,Supplied business details largely corroborate.,0
+M-0243,Cleaning,2299,Passed,Verified,1,Verified,Established,71,0,23075.69,12749,1.81,Supplied business details largely corroborate.,0
+M-0244,Food & Market Vendor,1937,Passed,Verified,1,Missing / incomplete,Established,173,0,1772.53,1129,1.57,Ordinary activity for declared business type.,0
+M-0245,Home Services,18,Passed,Conflicting,0,Conflicting,Established,98,3,18255.27,3531,5.17,Provided invoice details differ across sources.,1
+M-0246,Professional Services,1580,Passed,Verified,1,Verified,Established,97,1,306.44,326,0.94,Supplied business details largely corroborate.,0
+M-0247,Food & Market Vendor,1581,Passed,Verified,1,Verified,Established,26,0,9005.76,8496,1.06,Ordinary activity for declared business type.,0
+M-0248,Professional Services,1481,Passed,Verified,1,Verified,Established,73,0,17930.77,12539,1.43,No material inconsistency identified yet.,0
+M-0249,Food & Market Vendor,1546,Passed,Verified,1,Verified,Established,174,0,20017.07,14611,1.37,Supplied business details largely corroborate.,0
+M-0250,Food & Market Vendor,2251,Passed,Verified,0,Verified,Established,192,0,4302.2,4390,0.98,No material inconsistency identified yet.,0
+M-0251,Food & Market Vendor,2105,Passed,Verified,1,Verified,Established,215,0,13108.34,12026,1.09,No material inconsistency identified yet.,0
+M-0252,Home Services,171,Passed,Verified,0,Missing / incomplete,Limited,138,0,9230.0,9230,1.0,Ordinary activity for declared business type.,0
+M-0253,Mobile Retail,10,Passed,Conflicting,1,Conflicting,Limited,249,0,112809.28,12104,9.32,Provided invoice details differ across sources.,1
+M-0254,Food & Market Vendor,16,Passed,Verified,1,Verified,Established,127,2,64935.13,14209,4.57,Seasonal bookings and event calendar support spike.,0
+M-0255,Cleaning,50,Passed,Verified,1,Conflicting,Limited,42,12,28766.97,11553,2.49,Provided invoice details differ across sources.,1
+M-0256,Professional Services,1478,Passed,Verified,1,Missing / incomplete,Established,26,0,7288.86,10266,0.71,No material inconsistency identified yet.,0
+M-0257,Online Goods,1395,Passed,Verified,1,Verified,Established,39,0,9104.16,8754,1.04,No material inconsistency identified yet.,0
+M-0258,Mobile Retail,7,Passed,Verified,1,Conflicting,Established,96,0,3656.4,440,8.31,Ownership or bank details require confirmation.,1
+M-0259,Home Services,332,Passed,Verified,1,Verified,Established,37,1,7227.03,7771,0.93,Supplied business details largely corroborate.,0
+M-0260,Mobile Retail,10,Passed,Verified,1,Verified,Established,173,0,8130.79,13781,0.59,Ordinary activity for declared business type.,0
+M-0261,Professional Services,580,Passed,Verified,1,Verified,Established,198,0,81426.05,12823,6.35,Seasonal bookings and event calendar support spike.,0
+M-0262,Cleaning,445,Passed,Verified,1,Verified,Established,198,1,1500.0,1000,1.5,Ordinary activity for declared business type.,0
+M-0263,Home Services,1394,Passed,Verified,1,Missing / incomplete,Established,46,1,2478.45,2015,1.23,No material inconsistency identified yet.,0
+M-0264,Mobile Retail,501,Passed,Verified,1,Verified,Established,163,0,57881.44,15394,3.76,Seasonal bookings and event calendar support spike.,0
+M-0265,Mobile Retail,1026,Passed,Verified,1,Verified,Established,90,0,4353.44,4732,0.92,No material inconsistency identified yet.,0
+M-0266,Cleaning,2277,Passed,Verified,1,Conflicting,Established,197,0,8809.62,10614,0.83,No material inconsistency identified yet.,0
+M-0267,Online Goods,1330,Passed,Verified,1,Verified,Limited,137,0,8797.12,11888,0.74,Supplied business details largely corroborate.,0
+M-0268,Mobile Retail,32,Passed,Verified,1,Verified,Established,207,1,25181.2,6490,3.88,Weekend market event explains temporary demand surge.,0
+M-0269,Food & Market Vendor,470,Passed,Verified,1,Verified,Established,72,1,11246.07,1929,5.83,Rapid but documented growth after a local event.,0
+M-0270,Professional Services,1597,Passed,Verified,1,Missing / incomplete,Established,18,1,5730.75,7075,0.81,No material inconsistency identified yet.,0
+M-0271,Online Goods,566,Passed,Verified,1,Missing / incomplete,Established,90,0,98907.48,12348,8.01,Weekend market event explains temporary demand surge.,0
+M-0272,Mobile Retail,1092,Passed,Verified,1,Verified,Established,213,2,4119.13,2381,1.73,No material inconsistency identified yet.,0
+M-0273,Home Services,763,Passed,Verified,1,Missing / incomplete,Established,121,0,5618.56,8779,0.64,Supplied business details largely corroborate.,0
+M-0274,Mobile Retail,2182,Passed,Pending clarification,1,Verified,Established,179,0,9395.1,8030,1.17,Ordinary activity for declared business type.,0
+M-0275,Mobile Retail,1168,Passed,Verified,1,Verified,Established,129,0,470.88,654,0.72,No material inconsistency identified yet.,0
+M-0276,Online Goods,278,Passed,Verified,1,Verified,None found,190,0,5443.41,3703,1.47,No material inconsistency identified yet.,0
+M-0277,Food & Market Vendor,31,Passed,Verified,1,Verified,Established,60,1,24873.6,7773,3.2,Rapid but documented growth after a local event.,0
+M-0278,Cleaning,79,Passed,Verified,1,Verified,Limited,179,1,8023.51,6631,1.21,No material inconsistency identified yet.,0
+M-0279,Online Goods,1244,Passed,Verified,1,Verified,Established,184,0,9677.65,10187,0.95,Supplied business details largely corroborate.,0
+M-0280,Home Services,39,Passed,Pending clarification,0,Missing / incomplete,None found,84,1,103929.36,11346,9.16,Ownership or bank details require confirmation.,1
+M-0281,Online Goods,223,Passed,Verified,1,Missing / incomplete,Limited,79,0,42971.3,7010,6.13,Rapid but documented growth after a local event.,0
+M-0282,Mobile Retail,309,Passed,Verified,1,Verified,Established,65,1,5663.56,5012,1.13,No material inconsistency identified yet.,0
+M-0283,Home Services,1311,Passed,Verified,1,Verified,Limited,93,0,7717.4,8210,0.94,Supplied business details largely corroborate.,0
+M-0284,Home Services,2634,Passed,Verified,1,Verified,Established,188,1,6211.8,7395,0.84,Ordinary activity for declared business type.,0
+M-0285,Food & Market Vendor,1159,Passed,Verified,1,Verified,Established,175,0,8018.64,14319,0.56,Supplied business details largely corroborate.,0
+M-0286,Home Services,571,Passed,Verified,1,Verified,Established,72,1,21600.82,4519,4.78,Seasonal bookings and event calendar support spike.,0
+M-0287,Online Goods,988,Passed,Pending clarification,1,Verified,None found,50,0,20931.64,14143,1.48,Supplied business details largely corroborate.,0
+M-0288,Food & Market Vendor,29,Passed,Pending clarification,1,Conflicting,None found,117,3,57517.0,12725,4.52,Ownership or bank details require confirmation.,1
+M-0289,Online Goods,2145,Passed,Verified,1,Missing / incomplete,Established,59,0,8185.1,10630,0.77,Ordinary activity for declared business type.,0
+M-0290,Cleaning,1423,Passed,Verified,1,Verified,Established,146,0,7896.96,8226,0.96,Ordinary activity for declared business type.,0
+M-0291,Cleaning,474,Passed,Verified,1,Verified,Established,166,0,9685.41,8139,1.19,No material inconsistency identified yet.,0
+M-0292,Mobile Retail,611,Passed,Verified,1,Missing / incomplete,Limited,159,0,1177.66,1166,1.01,No material inconsistency identified yet.,0
+M-0293,Professional Services,22,Passed,Verified,1,Conflicting,None found,105,3,30290.72,3844,7.88,Business footprint is difficult to corroborate.,1
+M-0294,Professional Services,551,Passed,Verified,1,Verified,Established,60,0,3102.84,2028,1.53,Supplied business details largely corroborate.,0
+M-0295,Mobile Retail,2218,Passed,Verified,0,Verified,Limited,122,0,16293.44,13808,1.18,Supplied business details largely corroborate.,0
+M-0296,Online Goods,2369,Passed,Verified,1,Missing / incomplete,Established,211,0,1757.5,1850,0.95,No material inconsistency identified yet.,0
+M-0297,Food & Market Vendor,542,Passed,Verified,1,Verified,Established,220,0,8523.8,2180,3.91,Seasonal bookings and event calendar support spike.,0
+M-0298,Mobile Retail,1138,Passed,Verified,1,Verified,Established,156,1,10716.94,11401,0.94,Supplied business details largely corroborate.,0
+M-0299,Professional Services,128,Passed,Verified,1,Verified,Established,40,0,99140.86,12502,7.93,Weekend market event explains temporary demand surge.,0
+M-0300,Online Goods,31,Passed,Verified,1,Verified,Limited,31,0,19739.16,13428,1.47,No material inconsistency identified yet.,0
+M-0301,Online Goods,2457,Passed,Verified,1,Verified,Established,66,1,1357.74,1191,1.14,No material inconsistency identified yet.,0
+M-0302,Home Services,2770,Passed,Verified,1,Verified,Established,55,0,680.4,840,0.81,Ordinary activity for declared business type.,0
+M-0303,Food & Market Vendor,569,Passed,Verified,1,Verified,Limited,103,2,29220.45,4911,5.95,Seasonal bookings and event calendar support spike.,0
+M-0304,Mobile Retail,446,Passed,Verified,1,Verified,Established,44,1,6863.46,9402,0.73,Supplied business details largely corroborate.,0
+M-0305,Home Services,1401,Passed,Verified,1,Verified,Established,165,1,24956.88,15998,1.56,No material inconsistency identified yet.,0
+M-0306,Cleaning,1699,Passed,Verified,1,Verified,Limited,194,1,13518.4,15904,0.85,Ordinary activity for declared business type.,0
+M-0307,Cleaning,905,Passed,Verified,1,Verified,Established,206,0,15647.1,14902,1.05,Ordinary activity for declared business type.,0
+M-0308,Home Services,2543,Passed,Verified,1,Verified,Established,35,0,4988.06,6083,0.82,Supplied business details largely corroborate.,0
+M-0309,Cleaning,2026,Passed,Verified,1,Verified,Established,210,1,21697.8,14964,1.45,Supplied business details largely corroborate.,0
+M-0310,Food & Market Vendor,65,Passed,Verified,1,Verified,Limited,277,3,17698.22,5939,2.98,Ownership or bank details require confirmation.,1
+M-0311,Home Services,34,Passed,Pending clarification,0,Missing / incomplete,None found,202,2,20468.25,4135,4.95,Business footprint is difficult to corroborate.,1
+M-0312,Home Services,449,Passed,Verified,0,Verified,Limited,53,0,113946.42,14279,7.98,Rapid but documented growth after a local event.,0
+M-0313,Professional Services,263,Passed,Verified,1,Verified,Established,80,0,37461.6,9460,3.96,Seasonal bookings and event calendar support spike.,0
+M-0314,Professional Services,506,Passed,Verified,1,Verified,Established,181,0,4141.38,6002,0.69,Supplied business details largely corroborate.,0
+M-0315,Professional Services,37,Passed,Conflicting,1,Verified,Established,227,3,22916.16,7848,2.92,Provided invoice details differ across sources.,1
+M-0316,Online Goods,1105,Passed,Verified,1,Verified,Established,128,1,11286.48,10168,1.11,Ordinary activity for declared business type.,0
+M-0317,Home Services,2721,Passed,Conflicting,1,Verified,Established,21,1,6732.88,4372,1.54,Supplied business details largely corroborate.,0
+M-0318,Home Services,1173,Further review,Verified,1,Verified,Established,58,0,8110.8,7510,1.08,No material inconsistency identified yet.,0
+M-0319,Mobile Retail,57,Passed,Verified,1,Missing / incomplete,Limited,234,3,16231.17,2463,6.59,Provided invoice details differ across sources.,1
+M-0320,Professional Services,1074,Passed,Verified,1,Verified,Established,17,0,2408.86,2801,0.86,No material inconsistency identified yet.,0
+M-0321,Food & Market Vendor,2255,Passed,Verified,1,Verified,Established,198,1,6116.16,6371,0.96,No material inconsistency identified yet.,0
+M-0322,Online Goods,298,Passed,Verified,1,Verified,Established,32,0,54696.22,10874,5.03,Weekend market event explains temporary demand surge.,0
+M-0323,Home Services,213,Passed,Verified,1,Verified,Established,127,1,7932.32,9014,0.88,Supplied business details largely corroborate.,0
+M-0324,Professional Services,5,Further review,Verified,1,Missing / incomplete,Established,252,1,26602.0,5660,4.7,Ownership or bank details require confirmation.,1
+M-0325,Professional Services,1022,Passed,Verified,1,Verified,Established,185,2,14061.9,12335,1.14,Ordinary activity for declared business type.,0
+M-0326,Mobile Retail,132,Passed,Verified,1,Verified,Established,28,1,20900.0,4400,4.75,Seasonal bookings and event calendar support spike.,0
+M-0327,Professional Services,1005,Passed,Verified,1,Verified,Established,54,0,542.52,396,1.37,No material inconsistency identified yet.,0
+M-0328,Cleaning,2650,Passed,Verified,1,Verified,Established,47,0,4544.44,2771,1.64,No material inconsistency identified yet.,0
+M-0329,Online Goods,1557,Passed,Verified,1,Verified,Established,25,0,7158.06,6118,1.17,Supplied business details largely corroborate.,0
+M-0330,Professional Services,1137,Passed,Verified,1,Verified,Established,54,0,14898.95,14465,1.03,No material inconsistency identified yet.,0
+M-0331,Food & Market Vendor,2548,Passed,Verified,1,Verified,Established,97,1,11859.04,14288,0.83,No material inconsistency identified yet.,0
+M-0332,Cleaning,1331,Passed,Pending clarification,0,Verified,Established,148,0,7521.12,6964,1.08,Ordinary activity for declared business type.,0
+M-0333,Mobile Retail,2638,Passed,Verified,1,Verified,Established,174,0,12416.39,13951,0.89,Ordinary activity for declared business type.,0
+M-0334,Food & Market Vendor,1927,Passed,Verified,1,Verified,Limited,205,2,14977.76,13373,1.12,Ordinary activity for declared business type.,0
+M-0335,Cleaning,228,Passed,Verified,1,Verified,Established,113,0,64751.4,15988,4.05,Seasonal bookings and event calendar support spike.,0
+M-0336,Online Goods,373,Passed,Verified,1,Verified,Established,57,1,85541.0,11300,7.57,Seasonal bookings and event calendar support spike.,0
+M-0337,Mobile Retail,42,Passed,Verified,1,Conflicting,None found,177,3,70460.0,14092,5.0,Provided invoice details differ across sources.,1
+M-0338,Professional Services,10,Passed,Verified,1,Verified,Established,19,0,8747.28,12149,0.72,Ordinary activity for declared business type.,0
+M-0339,Online Goods,573,Passed,Verified,1,Missing / incomplete,Established,24,0,31398.64,8626,3.64,Seasonal bookings and event calendar support spike.,0
+M-0340,Professional Services,2340,Passed,Verified,1,Verified,Established,98,1,12994.8,15288,0.85,No material inconsistency identified yet.,0
+M-0341,Food & Market Vendor,2370,Passed,Verified,1,Verified,Established,126,0,8061.24,6501,1.24,Ordinary activity for declared business type.,0
+M-0342,Online Goods,1576,Further review,Verified,1,Verified,Established,153,0,1022.4,1136,0.9,Supplied business details largely corroborate.,0
+M-0343,Mobile Retail,99,Passed,Verified,1,Verified,Established,101,0,13996.8,3888,3.6,Rapid but documented growth after a local event.,0
+M-0344,Home Services,1979,Passed,Verified,1,Verified,Established,161,0,7248.01,9413,0.77,Supplied business details largely corroborate.,0
+M-0345,Mobile Retail,122,Further review,Verified,0,Conflicting,Established,103,0,43106.65,11255,3.83,Seasonal bookings and event calendar support spike.,0
+M-0346,Professional Services,193,Passed,Verified,1,Verified,Established,110,0,18932.16,15392,1.23,Ordinary activity for declared business type.,0
+M-0347,Cleaning,2,Passed,Verified,1,Missing / incomplete,Limited,181,1,30309.84,5874,5.16,Ownership or bank details require confirmation.,1
+M-0348,Online Goods,3,Passed,Pending clarification,1,Verified,None found,42,2,12454.8,6420,1.94,Provided invoice details differ across sources.,1
+M-0349,Online Goods,2713,Passed,Verified,1,Missing / incomplete,Established,74,2,10518.21,6151,1.71,Ordinary activity for declared business type.,0
+M-0350,Mobile Retail,1885,Passed,Verified,1,Verified,Established,100,0,7171.36,9436,0.76,No material inconsistency identified yet.,0
+M-0351,Food & Market Vendor,2573,Passed,Verified,1,Verified,Established,53,0,4649.84,4471,1.04,No material inconsistency identified yet.,0
+M-0352,Professional Services,593,Passed,Verified,1,Verified,Limited,129,0,16704.64,2752,6.07,Seasonal bookings and event calendar support spike.,0
+M-0353,Mobile Retail,447,Further review,Verified,1,Verified,Established,45,0,119932.56,15143,7.92,Seasonal bookings and event calendar support spike.,0
+M-0354,Online Goods,2618,Passed,Verified,1,Verified,Established,63,0,18026.4,15540,1.16,Ordinary activity for declared business type.,0
+M-0355,Home Services,116,Passed,Verified,1,Verified,Established,62,1,5890.56,6136,0.96,Ordinary activity for declared business type.,0
+M-0356,Professional Services,29,Passed,Verified,1,Missing / incomplete,Limited,236,5,39966.64,12412,3.22,Business footprint is difficult to corroborate.,1
+M-0357,Professional Services,1291,Passed,Verified,1,Verified,Established,167,0,8383.75,6707,1.25,Ordinary activity for declared business type.,0
+M-0358,Home Services,51,Passed,Verified,0,Conflicting,Limited,109,2,93933.8,12295,7.64,Ownership or bank details require confirmation.,1
+M-0359,Online Goods,19,Passed,Conflicting,1,Verified,Limited,104,5,57346.95,7845,7.31,Business footprint is difficult to corroborate.,1
+M-0360,Online Goods,837,Passed,Verified,1,Verified,Established,192,0,14267.73,14709,0.97,No material inconsistency identified yet.,0

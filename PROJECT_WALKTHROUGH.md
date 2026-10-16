@@ -1,29 +1,43 @@
-# How to present RiskDesk in a CPOS interview
+# RiskDesk — Case Review & Technical Guide
 
-## One-minute pitch
+RiskDesk is a synthetic merchant-risk review prototype. Its aim is to support an evidence-based investigation workflow rather than predict guilt or automatically freeze an account.
 
-"I wanted to understand the actual judgment problem in this role, not just build another fraud classifier. I designed RiskDesk, a small independent prototype using only synthetic merchants, to prioritize reviews based on business-registration evidence, matching bank details, invoice corroboration, sales behavior and disputes. Its output is a transparent review queue with reasons and counterevidence, not an automatic hold. I tested different score thresholds to show the trade-off between catching suspicious patterns and creating friction for legitimate merchants. I also documented cases where KYC passes but business evidence conflicts, and where an innocent seasonal seller spikes in activity."
+**[Open the interactive dashboard](https://kasrarasi.github.io/riskdesk-merchant-review/)**
 
-## Live demonstration (three minutes)
+## Review workflow
 
-1. Open `outputs/riskdesk_demo.html` in a browser. Start with **M-0001**: passed KYC does not erase multiple conflicting documents and high dispute activity. Read the next-step evidence requests. Explain that the system does not itself freeze money.
-2. Search **M-0002**: the simulated event vendor has verified documentation and zero disputes. Discuss why an indiscriminate velocity rule could hurt retention.
-3. Search **M-0003**: the new cleaning business has incomplete documentation, not proven fabrication. Describe proportionate evidence requests.
-4. Scroll to the threshold table. At 35, 66/360 are sent to review in this toy dataset, including 8 legitimate merchants; nine simulated fraud merchants are missed. Tightening review capacity reduces false alerts but increases missed cases.
-5. Close with what you would need to launch in reality: policy/authority, reviewed outcomes, document access, audit trails, calibration, merchant communication and privacy/security review.
+1. **Prioritize** a merchant using review points. These points are not probabilities of fraud.
+2. **Inspect** the source signals and the counterevidence before drawing conclusions.
+3. **Identify gaps** in business registration, payout details, invoices, activity patterns or disputes.
+4. **Choose proportional next steps** such as requesting a corroborating document, monitoring or escalating for specialist review.
+5. **Document** the rationale and follow-up in the browser-based analyst log. Notes can be exported to CSV.
 
-## Questions you may get
+## Illustrative merchant cases
 
-**Why not just train an ML model?** Because real fraud decisions depend on verified evidence and merchant context. A model may improve triage, but decisions affecting account status need explanations and authorized oversight. The project tests a transparent baseline first.
+**M-0001 — Conflicting evidence after KYC approval.** Passing identity verification does not establish that a business is operating legitimately. Conflicting registration, bank and invoice details justify independent verification and possibly escalation, but do not by themselves prove fraud.
 
-**Does 88% precision mean your system works in production?** No. The test labels and observed signals were artificially generated together. The metric only illustrates trade-offs, not generalizable performance.
+**M-0002 — Sales spike with a plausible explanation.** A seasonal or event-related surge can be normal for a legitimate business. Corroborating business evidence and dispute history matter; an indiscriminate velocity rule can create unnecessary merchant friction.
 
-**Why not reject M-0001 immediately?** KYC passing is not proof of a legitimate business, but conflicting evidence is not definitive proof of fraud either. Verification, escalation, an appropriate merchant update and documentation are required.
+**M-0003 — Incomplete records for a new business.** Missing documentation warrants clarification, not automatic rejection. Appropriate alternative evidence and clear follow-up deadlines may resolve the issue.
 
-**What would you track for a real team?** Confirmed loss and dispute outcomes, false-positive reviews, legitimate merchant holds, queue age, merchant time-to-resolution, customer complaints and override patterns.
+## Evaluating review thresholds
 
-**How would you improve this?** Connect verified data sources, store an audit trail, add analyst review notes and document request SLAs, run silent backtests, then calibrate policy thresholds with compliance/risk leaders.
+The default illustrative threshold is **35 review-priority points**. In the synthetic dataset, that queues **66 of 360** merchants, including **8 legitimate cases**, while missing **9 labelled simulated fraud cases**. The displayed precision and recall are outputs of the constructed dataset, not independent real-world validation.
 
-## Before sharing as personal work
+Moving the threshold changes analyst workload and the trade-off between overlooked risky cases and unnecessary scrutiny of legitimate ones. A production threshold would require cost, capacity and verified-outcome data.
 
-The working prototype was prepared with AI assistance and is a learning/demo artifact. **Run it, inspect the code and outputs, test three cases, and modify or extend a piece yourself** before saying you built it independently. Be prepared to explain every threshold. Never imply this is a CPOS integration, commercial fraud detection system or validation on real payments data.
+## Implementation and tests
+
+- `generate_data.py` creates deterministic fictional merchant records.
+- `core.py` computes rule-based review priority and outcome comparisons.
+- `analyze.py` produces the queue and evaluation summaries.
+- `dashboard.py` generates the self-contained browser interface.
+- `python -m unittest discover -s tests -v` runs seven tests for important scoring and review assumptions.
+
+The interactive site runs entirely in the browser. Review notes use local browser storage and CSV export; they are not submitted to a payments processor or a remote backend.
+
+## What would be required for production
+
+Verified identity and business-document sources, analyst roles and approvals, retained decision records, secure persistence, dispute/chargeback integration, calibrated thresholds using independently confirmed outcomes, measurable merchant friction, privacy/security controls, and documented escalation authority.
+
+The project uses synthetic cases, contains no operational financial data, and is not affiliated with CPOS. AI-assisted tools were used during development; the prototype is intended for review, testing and further iteration rather than operational decision-making.

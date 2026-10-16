@@ -1,70 +1,63 @@
 # RiskDesk · Merchant Risk Review Lab
 
-**Interactive portfolio project · Synthetic merchants only · Not affiliated with CPOS or any payments provider**
+**Interactive payments-risk portfolio prototype · Synthetic merchant data · No production integrations**
 
-RiskDesk is an evidence-led payments-risk review prototype. It explores how a fraud analyst can prioritize cases, independently verify contradictory documents, and avoid unnecessarily disrupting legitimate merchants.
+RiskDesk explores a practical problem in merchant onboarding and monitoring: how to prioritize suspicious cases, verify conflicting business evidence, and avoid unnecessary disruption to legitimate merchants. It combines transparent review-priority rules with an interactive queue, evidence summaries and an analyst decision log.
 
-[Launch the interactive dashboard](./index.html) (after GitHub Pages is enabled, use the website link under **Settings → Pages**)
+**[Open the live dashboard](https://kasrarasi.github.io/riskdesk-merchant-review/)** · [View the source code](https://github.com/KasraRasi/riskdesk-merchant-review)
 
-![RiskDesk interface](assets/dashboard_preview.png)
+![RiskDesk dashboard](assets/dashboard_preview.png)
 
-## What the dashboard does
+## Capabilities
 
-- Search and filter **360 reproducible, synthetic merchant cases**.
-- View business verification, payout-bank-name consistency, invoice evidence, transaction changes, disputes, and KYC status.
-- Separate **risk signals** from **counterevidence**, with context-appropriate next steps.
-- Write an analyst rationale, select a *simulated* review status, and export the **client-side review log as CSV**.
-- Inspect six illustrative thresholds and their effects on synthetic false positives, missed cases, and review workload.
+- Browse and filter **360 reproducible synthetic merchants** by priority, sector or ID.
+- Examine onboarding and monitoring evidence: KYC status, business-registration consistency, payout-bank-name checks, invoices, transaction-volume changes and dispute activity.
+- Compare reasons for concern with plausible benign explanations before choosing proportionate verification steps.
+- Record an analyst review status and rationale; export review notes as CSV. Notes remain in the browser, not on a server.
+- Compare six review thresholds against synthetic outcomes to illustrate false-positive workload and missed-case trade-offs.
 
-The score is **only a review priority**, not a fraud probability or a basis for automatically freezing or rejecting accounts. The log lives in your browser; no merchant information goes to a server.
+**Scope:** risk points represent *review priority*, not a fraud probability. The prototype cannot hold funds, decline accounts or take other actions against merchants.
 
-## Three cases for a 2-minute demo
+## Three cases to explore
 
-| Merchant | Why it matters | Discussion |
+| Case | Evidence to consider | Analyst question |
 |---|---|---|
-| `M-0001` | KYC passed, but bank details and business documents conflict, and disputes are elevated | Escalate evidence verification, not assume guilt |
-| `M-0002` | Established weekend seller with a 5.6× spike and corroborating evidence | Do not penalize a legitimate seasonal event |
-| `M-0003` | New cleaning business with incomplete, not conflicting, paperwork | Request proportionate alternative evidence |
+| `M-0001` | KYC passed, but business documents and payout details conflict; disputes are elevated | What independent evidence is needed before escalation? |
+| `M-0002` | Established seller with a temporary activity spike and corroborating evidence | Is the surge consistent with the business rather than fraud? |
+| `M-0003` | New service business with incomplete—but not contradictory—documents | What proportionate follow-up can resolve the gaps? |
 
-## Quick start — without any installation
+See the [case review guide](PROJECT_WALKTHROUGH.md) and [case notes](outputs/case_bank.md) for interpretation and limitations.
 
-Download/unzip this repository and double-click **`index.html`** (or `run_demo_windows.bat`). No Python, network connection, login, database, or dependency installation is necessary to try the dashboard.
+## Run locally
 
-## Run the analysis and tests
+For the interactive demonstration, download the repository and open `index.html` in a browser. The dashboard works offline and needs no Python installation or account.
 
-Requires Python 3.9+; no external libraries.
+To regenerate the dataset, evaluations and dashboard, use **Python 3.9+**:
 
 ```powershell
+python generate_data.py
 python analyze.py
 python -m unittest discover -s tests -v
 python dashboard.py
 ```
 
-After regenerating, copy `outputs/riskdesk_demo.html` to `index.html` to refresh the published front end. On Windows, `rebuild_windows.bat` performs this sequence with the `py` launcher.
+Copy `outputs/riskdesk_demo.html` to `index.html` after regeneration if you want to update the published site. The included `rebuild_windows.bat` runs the analysis and dashboard steps on Windows with the `py` launcher.
 
-## Publish to GitHub Pages
+## Repository layout
 
-1. Create a new **public** GitHub repository, for example `riskdesk-merchant-review`. Do not add real merchant information.
-2. Upload the **contents** of this folder (including `index.html`) or push the folder with Git.
-3. In the repository, go to **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**; choose **main** and **/(root)**; click **Save**.
-4. Wait for the Pages workflow and use **Visit site** on the Pages settings screen. It may take several minutes to appear.
-5. Test `M-0001` and `M-0002` in an incognito browser window, and confirm the note/export controls work.
+| File | Purpose |
+|---|---|
+| `index.html` | Standalone live dashboard for GitHub Pages |
+| `generate_data.py` | Reproducible synthetic merchant data |
+| `core.py` | Explainable scoring and evaluation logic |
+| `analyze.py` | Queue, metrics and threshold comparisons |
+| `dashboard.py` | Dashboard HTML generator |
+| `data/`, `outputs/` | Synthetic records and analysis artifacts |
+| `tests/` | Seven unit tests for policy and scoring assumptions |
+| `PROJECT_WALKTHROUGH.md` | Short case review and technical guide |
 
-The live URL usually has the form `https://YOUR-USERNAME.github.io/riskdesk-merchant-review/`. **Do not send this URL until the site actually opens.**
+## Assumptions and limitations
 
-## Project structure
+This is a **synthetic demonstration**, not a real merchant underwriting system or a CPOS integration. All cases, labels and outcomes are simulated; reported precision and recall are illustrative and **cannot be generalized to real fraud detection**. The site contains no real identities, payment credentials or company data.
 
-- `index.html` — self-contained interactive website / GitHub Pages entry point
-- `generate_data.py` — deterministic synthetic merchant generation
-- `core.py` — transparent risk-priority rules and metrics
-- `analyze.py` — review queue and threshold calculations
-- `dashboard.py` — generates self-contained HTML from the synthetic dataset
-- `data/`, `outputs/` — synthetic source data and analysis outputs
-- `tests/` — seven unit tests covering core risk policy assumptions
-- `PROJECT_WALKTHROUGH.md`, `outputs/case_bank.md` — demonstration script and review memos
-
-## Important caveats
-
-**This is an educational prototype, created with AI assistance.** All merchants and activity are simulated. Classification metrics are derived from synthetic labels and are **not** real-world fraud-detection performance. No real identity documents or payment details are collected. The prototype does not implement KYC/KYB, dispute recovery, legal/compliance obligations, production access control, secure persistence, or authorized account actions.
-
-The user needs to understand, verify, and independently improve the project before describing its work as fully their own. Any real platform implementation would require company policies, audited data access, an authorization model, secure case logs, measurable merchant friction, compliance/privacy review, and retrospective outcome-based calibration.
+The prototype does not implement document authentication, production KYC/KYB, secure multi-user case storage, dispute recovery, regulatory controls or account actions. A real deployment would need independently sourced evidence, authorization policies, an audit trail, compliance review and prospective evaluation. Development included AI-assisted tooling; analysis and technical claims should be reviewed and tested before reuse.

@@ -1,0 +1,361 @@
+merchant_id,sector,priority,score,top_reasons,suggested_next_steps
+M-0001,Online Goods,High - urgent human review,132,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Invoice evidence contradicts supplied details,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0205,Home Services,High - urgent human review,116,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Invoice evidence contradicts supplied details,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0245,Home Services,High - urgent human review,110,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Invoice evidence contradicts supplied details,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0032,Food & Market Vendor,High - urgent human review,103,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Invoice evidence contradicts supplied details,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0090,Cleaning,High - urgent human review,100,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0229,Mobile Retail,High - urgent human review,99,Registration information needs clarification | Bank account name does not match submitted business details | Invoice evidence contradicts supplied details,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0211,Home Services,High - urgent human review,97,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Recently established merchant,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0063,Home Services,High - urgent human review,93,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Invoice evidence contradicts supplied details,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0069,Online Goods,High - urgent human review,91,Registration evidence conflicts with declared details | Invoice evidence contradicts supplied details | Independent business footprint not established,"Verify registration independently and request consistent legal business name | Verify invoice context, counterparties and authenticity"
+M-0099,Mobile Retail,High - urgent human review,91,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Independent business footprint not established,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0186,Online Goods,High - urgent human review,88,Registration evidence conflicts with declared details | Invoice evidence contradicts supplied details | Recently established merchant,"Verify registration independently and request consistent legal business name | Verify invoice context, counterparties and authenticity"
+M-0216,Home Services,High - urgent human review,88,Registration information needs clarification | Bank account name does not match submitted business details | Independent business footprint not established,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0218,Cleaning,High - urgent human review,88,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0170,Home Services,High - urgent human review,87,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0162,Professional Services,High - urgent human review,83,Bank account name does not match submitted business details | Invoice evidence contradicts supplied details | Independent business footprint not established,"Confirm authorized payout beneficiary with secure verification workflow | Verify invoice context, counterparties and authenticity"
+M-0024,Home Services,High - urgent human review,81,Registration evidence conflicts with declared details | Invoice evidence contradicts supplied details | 7-day volume 6.5x expected level,"Verify registration independently and request consistent legal business name | Verify invoice context, counterparties and authenticity"
+M-0141,Professional Services,High - urgent human review,81,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Independent business footprint not established,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0008,Food & Market Vendor,High - urgent human review,79,Registration evidence conflicts with declared details | Invoice evidence contradicts supplied details | Independent business footprint not established,"Verify registration independently and request consistent legal business name | Verify invoice context, counterparties and authenticity"
+M-0237,Cleaning,High - urgent human review,79,Registration evidence conflicts with declared details | Invoice evidence contradicts supplied details | Independent business footprint not established,"Verify registration independently and request consistent legal business name | Verify invoice context, counterparties and authenticity"
+M-0004,Cleaning,High - urgent human review,78,Registration evidence conflicts with declared details | Invoice evidence contradicts supplied details | Recently established merchant,"Verify registration independently and request consistent legal business name | Verify invoice context, counterparties and authenticity"
+M-0253,Mobile Retail,High - urgent human review,78,Registration evidence conflicts with declared details | Invoice evidence contradicts supplied details | Recently established merchant,"Verify registration independently and request consistent legal business name | Verify invoice context, counterparties and authenticity"
+M-0173,Online Goods,High - urgent human review,73,Invoice evidence contradicts supplied details | 7-day volume 6.3x expected level | Elevated disputes: 5/67 (7.5%),"Verify invoice context, counterparties and authenticity | Ask whether seasonality, events or recent promotions explain activity"
+M-0184,Food & Market Vendor,High - urgent human review,71,Registration evidence conflicts with declared details | Invoice evidence contradicts supplied details | 7-day volume 5.1x expected level,"Verify registration independently and request consistent legal business name | Verify invoice context, counterparties and authenticity"
+M-0018,Food & Market Vendor,High - urgent human review,70,Bank account name does not match submitted business details | Invoice evidence contradicts supplied details | Recently established merchant,"Confirm authorized payout beneficiary with secure verification workflow | Verify invoice context, counterparties and authenticity"
+M-0206,Professional Services,High - urgent human review,70,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | 7-day volume 8.9x expected level,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0095,Online Goods,Medium - investigate,68,Registration information needs clarification | Invoice evidence contradicts supplied details | Independent business footprint not established,"Request updated registration or reasonable alternate evidence | Verify invoice context, counterparties and authenticity"
+M-0288,Food & Market Vendor,Medium - investigate,68,Registration information needs clarification | Invoice evidence contradicts supplied details | Independent business footprint not established,"Request updated registration or reasonable alternate evidence | Verify invoice context, counterparties and authenticity"
+M-0293,Professional Services,Medium - investigate,68,Invoice evidence contradicts supplied details | Independent business footprint not established | Recently established merchant,"Verify invoice context, counterparties and authenticity | Check alternative proof (market permits, service bookings or supplier records)"
+M-0120,Home Services,Medium - investigate,66,Registration information needs clarification | Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0280,Home Services,Medium - investigate,66,Registration information needs clarification | Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0359,Online Goods,Medium - investigate,65,Registration evidence conflicts with declared details | Recently established merchant | 7-day volume 7.3x expected level,"Verify registration independently and request consistent legal business name | Ask whether seasonality, events or recent promotions explain activity"
+M-0345,Mobile Retail,Medium - investigate,64,Bank account name does not match submitted business details | Invoice evidence contradicts supplied details | 7-day volume 3.8x expected level,"Confirm authorized payout beneficiary with secure verification workflow | Verify invoice context, counterparties and authenticity"
+M-0358,Home Services,Medium - investigate,63,Bank account name does not match submitted business details | Invoice evidence contradicts supplied details | 7-day volume 7.6x expected level,"Confirm authorized payout beneficiary with secure verification workflow | Verify invoice context, counterparties and authenticity"
+M-0049,Mobile Retail,Medium - investigate,62,Registration evidence conflicts with declared details | Bank account name does not match submitted business details | Independent business footprint not established,Verify registration independently and request consistent legal business name | Confirm authorized payout beneficiary with secure verification workflow
+M-0062,Home Services,Medium - investigate,61,Registration information needs clarification | Invoice evidence contradicts supplied details | Independent business footprint not established,"Request updated registration or reasonable alternate evidence | Verify invoice context, counterparties and authenticity"
+M-0087,Home Services,Medium - investigate,61,Bank account name does not match submitted business details | Invoice evidence contradicts supplied details | Recently established merchant,"Confirm authorized payout beneficiary with secure verification workflow | Verify invoice context, counterparties and authenticity"
+M-0156,Cleaning,Medium - investigate,59,Registration information needs clarification | Bank account name does not match submitted business details | 7-day volume 7.3x expected level,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0159,Professional Services,Medium - investigate,59,Registration information needs clarification | Bank account name does not match submitted business details | 7-day volume 8.8x expected level,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0147,Online Goods,Medium - investigate,58,Registration evidence conflicts with declared details | Independent business footprint not established | 7-day volume 8.5x expected level,"Verify registration independently and request consistent legal business name | Check alternative proof (market permits, service bookings or supplier records)"
+M-0006,Cleaning,Medium - investigate,57,Registration information needs clarification | Invoice evidence contradicts supplied details | Recently established merchant,"Request updated registration or reasonable alternate evidence | Verify invoice context, counterparties and authenticity"
+M-0228,Mobile Retail,Medium - investigate,57,Bank account name does not match submitted business details | Invoice evidence is missing or incomplete | Independent business footprint not established,Confirm authorized payout beneficiary with secure verification workflow | Ask for invoice or alternative proof of genuine trading
+M-0311,Home Services,Medium - investigate,57,Registration information needs clarification | Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0027,Cleaning,Medium - investigate,55,Registration information needs clarification | Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0232,Professional Services,Medium - investigate,55,Registration evidence conflicts with declared details | Invoice evidence is missing or incomplete | 7-day volume 5.3x expected level,Verify registration independently and request consistent legal business name | Ask for invoice or alternative proof of genuine trading
+M-0117,Home Services,Medium - investigate,51,Registration information needs clarification | Invoice evidence is missing or incomplete | Recently established merchant,Request updated registration or reasonable alternate evidence | Ask for invoice or alternative proof of genuine trading
+M-0154,Home Services,Medium - investigate,51,Invoice evidence contradicts supplied details | 7-day volume 7.7x expected level | Disputes require monitoring: 2.9%,"Verify invoice context, counterparties and authenticity | Ask whether seasonality, events or recent promotions explain activity"
+M-0337,Mobile Retail,Medium - investigate,51,Invoice evidence contradicts supplied details | Independent business footprint not established | 7-day volume 5.0x expected level,"Verify invoice context, counterparties and authenticity | Check alternative proof (market permits, service bookings or supplier records)"
+M-0177,Home Services,Medium - investigate,50,Bank account name does not match submitted business details | 7-day volume 5.0x expected level | Disputes require monitoring: 2.7%,"Confirm authorized payout beneficiary with secure verification workflow | Ask whether seasonality, events or recent promotions explain activity"
+M-0102,Home Services,Medium - investigate,49,Registration evidence conflicts with declared details | 7-day volume 4.6x expected level | Disputes require monitoring: 5.3%,Verify registration independently and request consistent legal business name
+M-0194,Home Services,Medium - investigate,49,Invoice evidence contradicts supplied details | Independent business footprint not established | Recently established merchant,"Verify invoice context, counterparties and authenticity | Check alternative proof (market permits, service bookings or supplier records)"
+M-0072,Mobile Retail,Medium - investigate,48,Registration evidence conflicts with declared details | 7-day volume 6.9x expected level,"Verify registration independently and request consistent legal business name | Ask whether seasonality, events or recent promotions explain activity"
+M-0258,Mobile Retail,Medium - investigate,48,Invoice evidence contradicts supplied details | Recently established merchant | 7-day volume 8.3x expected level,"Verify invoice context, counterparties and authenticity | Ask whether seasonality, events or recent promotions explain activity"
+M-0204,Food & Market Vendor,Medium - investigate,47,Registration information needs clarification | Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0073,Mobile Retail,Medium - investigate,45,Bank account name does not match submitted business details | Invoice evidence contradicts supplied details,"Confirm authorized payout beneficiary with secure verification workflow | Verify invoice context, counterparties and authenticity"
+M-0255,Cleaning,Medium - investigate,45,Invoice evidence contradicts supplied details | Elevated disputes: 12/42 (28.6%),"Verify invoice context, counterparties and authenticity | Inspect dispute reasons and exposure; preserve evidence for disputes"
+M-0172,Food & Market Vendor,Medium - investigate,42,Invoice evidence contradicts supplied details | 7-day volume 3.5x expected level | Disputes require monitoring: 5.6%,"Verify invoice context, counterparties and authenticity"
+M-0223,Food & Market Vendor,Medium - investigate,42,Registration information needs clarification | Invoice evidence contradicts supplied details | Individual identity verification requires follow-up,"Request updated registration or reasonable alternate evidence | Verify invoice context, counterparties and authenticity"
+M-0091,Home Services,Medium - investigate,41,Invoice evidence contradicts supplied details | 7-day volume 8.5x expected level,"Verify invoice context, counterparties and authenticity | Ask whether seasonality, events or recent promotions explain activity"
+M-0116,Home Services,Medium - investigate,40,Registration evidence conflicts with declared details | Disputes require monitoring: 2.7%,Verify registration independently and request consistent legal business name
+M-0312,Home Services,Medium - investigate,40,Bank account name does not match submitted business details | 7-day volume 8.0x expected level,"Confirm authorized payout beneficiary with secure verification workflow | Ask whether seasonality, events or recent promotions explain activity"
+M-0317,Home Services,Medium - investigate,40,Registration evidence conflicts with declared details | Disputes require monitoring: 4.8%,Verify registration independently and request consistent legal business name
+M-0009,Cleaning,Medium - investigate,39,Invoice evidence is missing or incomplete | Independent business footprint not established | Elevated disputes: 3/12 (25.0%),"Ask for invoice or alternative proof of genuine trading | Check alternative proof (market permits, service bookings or supplier records)"
+M-0057,Cleaning,Medium - investigate,39,Registration evidence conflicts with declared details | 7-day volume 3.4x expected level,Verify registration independently and request consistent legal business name
+M-0151,Online Goods,Medium - investigate,38,Registration information needs clarification | Bank account name does not match submitted business details | Recently established merchant,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0100,Food & Market Vendor,Medium - investigate,37,Registration information needs clarification | 7-day volume 5.8x expected level | Disputes require monitoring: 4.3%,"Request updated registration or reasonable alternate evidence | Ask whether seasonality, events or recent promotions explain activity"
+M-0348,Online Goods,Medium - investigate,36,Registration information needs clarification | Independent business footprint not established | Recently established merchant,"Request updated registration or reasonable alternate evidence | Check alternative proof (market permits, service bookings or supplier records)"
+M-0324,Professional Services,Low - routine review,33,Invoice evidence is missing or incomplete | Recently established merchant | 7-day volume 4.7x expected level,Ask for invoice or alternative proof of genuine trading | Resolve identity verification issue
+M-0016,Professional Services,Low - routine review,32,Registration information needs clarification | Invoice evidence contradicts supplied details,"Request updated registration or reasonable alternate evidence | Verify invoice context, counterparties and authenticity"
+M-0347,Cleaning,Low - routine review,32,Invoice evidence is missing or incomplete | Recently established merchant | 7-day volume 5.2x expected level,"Ask for invoice or alternative proof of genuine trading | Ask whether seasonality, events or recent promotions explain activity"
+M-0146,Food & Market Vendor,Low - routine review,31,Registration information needs clarification | Elevated disputes: 2/30 (6.7%),Request updated registration or reasonable alternate evidence | Inspect dispute reasons and exposure; preserve evidence for disputes
+M-0332,Cleaning,Low - routine review,31,Registration information needs clarification | Bank account name does not match submitted business details,Request updated registration or reasonable alternate evidence | Confirm authorized payout beneficiary with secure verification workflow
+M-0150,Online Goods,Low - routine review,30,Registration evidence conflicts with declared details,Verify registration independently and request consistent legal business name
+M-0183,Food & Market Vendor,Low - routine review,30,Registration evidence conflicts with declared details,Verify registration independently and request consistent legal business name
+M-0215,Cleaning,Low - routine review,30,Registration evidence conflicts with declared details,Verify registration independently and request consistent legal business name
+M-0315,Professional Services,Low - routine review,30,Registration evidence conflicts with declared details,Verify registration independently and request consistent legal business name
+M-0040,Online Goods,Low - routine review,29,Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Confirm authorized payout beneficiary with secure verification workflow | Ask for invoice or alternative proof of genuine trading
+M-0189,Home Services,Low - routine review,29,Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Confirm authorized payout beneficiary with secure verification workflow | Ask for invoice or alternative proof of genuine trading
+M-0252,Home Services,Low - routine review,29,Bank account name does not match submitted business details | Invoice evidence is missing or incomplete,Confirm authorized payout beneficiary with secure verification workflow | Ask for invoice or alternative proof of genuine trading
+M-0353,Mobile Retail,Low - routine review,28,7-day volume 7.9x expected level | Individual identity verification requires follow-up,"Ask whether seasonality, events or recent promotions explain activity | Resolve identity verification issue"
+M-0155,Professional Services,Low - routine review,27,Registration information needs clarification | 7-day volume 5.7x expected level,"Request updated registration or reasonable alternate evidence | Ask whether seasonality, events or recent promotions explain activity"
+M-0219,Online Goods,Low - routine review,26,Invoice evidence is missing or incomplete | Independent business footprint not established | 7-day volume 4.1x expected level,"Ask for invoice or alternative proof of genuine trading | Check alternative proof (market permits, service bookings or supplier records)"
+M-0224,Professional Services,Low - routine review,26,Invoice evidence is missing or incomplete | 7-day volume 3.4x expected level | Disputes require monitoring: 3.0%,Ask for invoice or alternative proof of genuine trading
+M-0236,Cleaning,Low - routine review,25,Invoice evidence is missing or incomplete | 7-day volume 6.5x expected level,"Ask for invoice or alternative proof of genuine trading | Ask whether seasonality, events or recent promotions explain activity"
+M-0271,Online Goods,Low - routine review,25,Invoice evidence is missing or incomplete | 7-day volume 8.0x expected level,"Ask for invoice or alternative proof of genuine trading | Ask whether seasonality, events or recent promotions explain activity"
+M-0281,Online Goods,Low - routine review,25,Invoice evidence is missing or incomplete | 7-day volume 6.1x expected level,"Ask for invoice or alternative proof of genuine trading | Ask whether seasonality, events or recent promotions explain activity"
+M-0319,Mobile Retail,Low - routine review,25,Invoice evidence is missing or incomplete | 7-day volume 6.6x expected level,"Ask for invoice or alternative proof of genuine trading | Ask whether seasonality, events or recent promotions explain activity"
+M-0026,Online Goods,Low - routine review,23,Invoice evidence contradicts supplied details,"Verify invoice context, counterparties and authenticity"
+M-0033,Online Goods,Low - routine review,23,Invoice evidence contradicts supplied details,"Verify invoice context, counterparties and authenticity"
+M-0163,Home Services,Low - routine review,23,Invoice evidence contradicts supplied details,"Verify invoice context, counterparties and authenticity"
+M-0167,Mobile Retail,Low - routine review,23,Invoice evidence contradicts supplied details,"Verify invoice context, counterparties and authenticity"
+M-0266,Cleaning,Low - routine review,23,Invoice evidence contradicts supplied details,"Verify invoice context, counterparties and authenticity"
+M-0356,Professional Services,Low - routine review,23,Invoice evidence is missing or incomplete | Recently established merchant | 7-day volume 3.2x expected level,Ask for invoice or alternative proof of genuine trading
+M-0079,Online Goods,Low - routine review,22,Elevated disputes: 3/30 (10.0%),Inspect dispute reasons and exposure; preserve evidence for disputes
+M-0209,Food & Market Vendor,Low - routine review,22,Bank account name does not match submitted business details,Confirm authorized payout beneficiary with secure verification workflow
+M-0250,Food & Market Vendor,Low - routine review,22,Bank account name does not match submitted business details,Confirm authorized payout beneficiary with secure verification workflow
+M-0295,Mobile Retail,Low - routine review,22,Bank account name does not match submitted business details,Confirm authorized payout beneficiary with secure verification workflow
+M-0025,Professional Services,Low - routine review,19,7-day volume 4.9x expected level | Disputes require monitoring: 4.2%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0031,Online Goods,Low - routine review,19,7-day volume 4.6x expected level | Individual identity verification requires follow-up,Resolve identity verification issue
+M-0105,Online Goods,Low - routine review,19,Registration information needs clarification | Disputes require monitoring: 3.4%,Request updated registration or reasonable alternate evidence
+M-0125,Mobile Retail,Low - routine review,19,Registration information needs clarification | Disputes require monitoring: 5.3%,Request updated registration or reasonable alternate evidence
+M-0287,Online Goods,Low - routine review,19,Registration information needs clarification | Independent business footprint not established,"Request updated registration or reasonable alternate evidence | Check alternative proof (market permits, service bookings or supplier records)"
+M-0326,Mobile Retail,Low - routine review,19,7-day volume 4.8x expected level | Disputes require monitoring: 3.6%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0002,Food & Market Vendor,Low - routine review,18,7-day volume 5.6x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0005,Home Services,Low - routine review,18,7-day volume 7.3x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0046,Cleaning,Low - routine review,18,7-day volume 6.5x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0053,Professional Services,Low - routine review,18,7-day volume 6.0x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0055,Mobile Retail,Low - routine review,18,7-day volume 7.5x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0066,Cleaning,Low - routine review,18,7-day volume 5.9x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0075,Home Services,Low - routine review,18,7-day volume 8.1x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0088,Mobile Retail,Low - routine review,18,7-day volume 8.1x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0093,Professional Services,Low - routine review,18,7-day volume 7.5x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0101,Home Services,Low - routine review,18,7-day volume 8.0x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0180,Mobile Retail,Low - routine review,18,Registration information needs clarification | 7-day volume 3.8x expected level,Request updated registration or reasonable alternate evidence
+M-0192,Professional Services,Low - routine review,18,7-day volume 7.2x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0212,Food & Market Vendor,Low - routine review,18,7-day volume 6.7x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0222,Food & Market Vendor,Low - routine review,18,7-day volume 5.0x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0261,Professional Services,Low - routine review,18,7-day volume 6.3x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0269,Food & Market Vendor,Low - routine review,18,7-day volume 5.8x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0299,Professional Services,Low - routine review,18,7-day volume 7.9x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0303,Food & Market Vendor,Low - routine review,18,7-day volume 6.0x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0322,Online Goods,Low - routine review,18,7-day volume 5.0x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0336,Online Goods,Low - routine review,18,7-day volume 7.6x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0352,Professional Services,Low - routine review,18,7-day volume 6.1x expected level,"Ask whether seasonality, events or recent promotions explain activity"
+M-0017,Home Services,Low - routine review,17,Invoice evidence is missing or incomplete | Individual identity verification requires follow-up,Ask for invoice or alternative proof of genuine trading | Resolve identity verification issue
+M-0020,Home Services,Low - routine review,17,Invoice evidence is missing or incomplete | Disputes require monitoring: 3.1%,Ask for invoice or alternative proof of genuine trading
+M-0060,Professional Services,Low - routine review,17,Invoice evidence is missing or incomplete | Disputes require monitoring: 3.2%,Ask for invoice or alternative proof of genuine trading
+M-0124,Food & Market Vendor,Low - routine review,17,Invoice evidence is missing or incomplete | Disputes require monitoring: 2.6%,Ask for invoice or alternative proof of genuine trading
+M-0235,Food & Market Vendor,Low - routine review,17,Recently established merchant | Disputes require monitoring: 3.8%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0270,Professional Services,Low - routine review,17,Invoice evidence is missing or incomplete | Disputes require monitoring: 5.6%,Ask for invoice or alternative proof of genuine trading
+M-0349,Online Goods,Low - routine review,17,Invoice evidence is missing or incomplete | Disputes require monitoring: 2.7%,Ask for invoice or alternative proof of genuine trading
+M-0003,Cleaning,Low - routine review,16,Registration information needs clarification | Invoice evidence is missing or incomplete,Request updated registration or reasonable alternate evidence | Ask for invoice or alternative proof of genuine trading
+M-0012,Mobile Retail,Low - routine review,16,Registration information needs clarification | Invoice evidence is missing or incomplete,Request updated registration or reasonable alternate evidence | Ask for invoice or alternative proof of genuine trading
+M-0161,Professional Services,Low - routine review,16,Registration information needs clarification | Invoice evidence is missing or incomplete,Request updated registration or reasonable alternate evidence | Ask for invoice or alternative proof of genuine trading
+M-0200,Home Services,Low - routine review,16,Invoice evidence is missing or incomplete | 7-day volume 4.2x expected level,Ask for invoice or alternative proof of genuine trading
+M-0254,Food & Market Vendor,Low - routine review,16,Recently established merchant | 7-day volume 4.6x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0339,Online Goods,Low - routine review,16,Invoice evidence is missing or incomplete | 7-day volume 3.6x expected level,Ask for invoice or alternative proof of genuine trading
+M-0019,Online Goods,Low - routine review,10,Individual identity verification requires follow-up,Resolve identity verification issue
+M-0023,Food & Market Vendor,Low - routine review,10,Individual identity verification requires follow-up,Resolve identity verification issue
+M-0048,Home Services,Low - routine review,10,Disputes require monitoring: 2.5%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0058,Mobile Retail,Low - routine review,10,Individual identity verification requires follow-up,Resolve identity verification issue
+M-0065,Home Services,Low - routine review,10,Disputes require monitoring: 2.5%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0067,Professional Services,Low - routine review,10,Individual identity verification requires follow-up,Resolve identity verification issue
+M-0070,Cleaning,Low - routine review,10,Disputes require monitoring: 2.6%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0084,Online Goods,Low - routine review,10,Individual identity verification requires follow-up,Resolve identity verification issue
+M-0104,Professional Services,Low - routine review,10,Disputes require monitoring: 2.5%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0107,Online Goods,Low - routine review,10,Independent business footprint not established,"Check alternative proof (market permits, service bookings or supplier records)"
+M-0110,Mobile Retail,Low - routine review,10,Disputes require monitoring: 3.7%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0111,Home Services,Low - routine review,10,Independent business footprint not established,"Check alternative proof (market permits, service bookings or supplier records)"
+M-0118,Food & Market Vendor,Low - routine review,10,Independent business footprint not established,"Check alternative proof (market permits, service bookings or supplier records)"
+M-0133,Professional Services,Low - routine review,10,Disputes require monitoring: 2.8%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0157,Professional Services,Low - routine review,10,Individual identity verification requires follow-up,Resolve identity verification issue
+M-0164,Professional Services,Low - routine review,10,Individual identity verification requires follow-up,Resolve identity verification issue
+M-0208,Home Services,Low - routine review,10,Independent business footprint not established,"Check alternative proof (market permits, service bookings or supplier records)"
+M-0259,Home Services,Low - routine review,10,Disputes require monitoring: 2.7%,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0276,Online Goods,Low - routine review,10,Independent business footprint not established,"Check alternative proof (market permits, service bookings or supplier records)"
+M-0318,Home Services,Low - routine review,10,Individual identity verification requires follow-up,Resolve identity verification issue
+M-0342,Online Goods,Low - routine review,10,Individual identity verification requires follow-up,Resolve identity verification issue
+M-0036,Professional Services,Low - routine review,9,Registration information needs clarification,Request updated registration or reasonable alternate evidence
+M-0059,Online Goods,Low - routine review,9,7-day volume 4.0x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0103,Food & Market Vendor,Low - routine review,9,Registration information needs clarification,Request updated registration or reasonable alternate evidence
+M-0129,Mobile Retail,Low - routine review,9,Registration information needs clarification,Request updated registration or reasonable alternate evidence
+M-0149,Food & Market Vendor,Low - routine review,9,7-day volume 3.1x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0166,Home Services,Low - routine review,9,7-day volume 4.3x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0178,Mobile Retail,Low - routine review,9,Registration information needs clarification,Request updated registration or reasonable alternate evidence
+M-0185,Home Services,Low - routine review,9,Registration information needs clarification,Request updated registration or reasonable alternate evidence
+M-0202,Online Goods,Low - routine review,9,Registration information needs clarification,Request updated registration or reasonable alternate evidence
+M-0231,Professional Services,Low - routine review,9,Registration information needs clarification,Request updated registration or reasonable alternate evidence
+M-0240,Professional Services,Low - routine review,9,7-day volume 4.2x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0264,Mobile Retail,Low - routine review,9,7-day volume 3.8x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0268,Mobile Retail,Low - routine review,9,7-day volume 3.9x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0274,Mobile Retail,Low - routine review,9,Registration information needs clarification,Request updated registration or reasonable alternate evidence
+M-0277,Food & Market Vendor,Low - routine review,9,7-day volume 3.2x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0286,Home Services,Low - routine review,9,7-day volume 4.8x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0297,Food & Market Vendor,Low - routine review,9,7-day volume 3.9x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0313,Professional Services,Low - routine review,9,7-day volume 4.0x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0335,Cleaning,Low - routine review,9,7-day volume 4.0x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0343,Mobile Retail,Low - routine review,9,7-day volume 3.6x expected level,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0010,Mobile Retail,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0011,Home Services,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0028,Professional Services,Low - routine review,7,Recently established merchant,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0037,Cleaning,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0038,Cleaning,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0043,Food & Market Vendor,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0081,Online Goods,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0113,Food & Market Vendor,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0142,Professional Services,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0153,Professional Services,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0160,Professional Services,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0187,Professional Services,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0198,Food & Market Vendor,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0230,Mobile Retail,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0234,Online Goods,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0238,Mobile Retail,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0244,Food & Market Vendor,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0256,Professional Services,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0260,Mobile Retail,Low - routine review,7,Recently established merchant,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0263,Home Services,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0273,Home Services,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0289,Online Goods,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0292,Mobile Retail,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0296,Online Goods,Low - routine review,7,Invoice evidence is missing or incomplete,Ask for invoice or alternative proof of genuine trading
+M-0338,Professional Services,Low - routine review,7,Recently established merchant,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0007,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0013,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0014,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0015,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0021,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0022,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0029,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0030,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0034,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0035,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0039,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0041,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0042,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0044,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0045,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0047,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0050,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0051,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0052,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0054,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0056,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0061,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0064,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0068,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0071,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0074,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0076,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0077,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0078,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0080,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0082,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0083,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0085,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0086,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0089,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0092,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0094,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0096,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0097,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0098,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0106,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0108,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0109,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0112,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0114,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0115,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0119,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0121,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0122,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0123,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0126,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0127,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0128,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0130,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0131,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0132,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0134,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0135,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0136,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0137,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0138,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0139,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0140,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0143,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0144,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0145,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0148,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0152,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0158,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0165,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0168,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0169,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0171,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0174,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0175,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0176,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0179,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0181,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0182,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0188,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0190,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0191,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0193,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0195,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0196,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0197,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0199,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0201,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0203,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0207,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0210,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0213,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0214,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0217,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0220,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0221,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0225,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0226,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0227,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0233,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0239,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0241,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0242,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0243,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0246,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0247,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0248,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0249,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0251,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0257,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0262,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0265,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0267,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0272,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0275,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0278,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0279,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0282,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0283,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0284,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0285,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0290,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0291,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0294,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0298,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0300,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0301,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0302,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0304,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0305,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0306,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0307,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0308,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0309,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0310,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0314,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0316,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0320,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0321,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0323,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0325,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0327,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0328,Cleaning,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0329,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0330,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0331,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0333,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0334,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0340,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0341,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0344,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0346,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0350,Mobile Retail,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0351,Food & Market Vendor,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0354,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0355,Home Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0357,Professional Services,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring
+M-0360,Online Goods,Low - routine review,0,,Confirm the observed pattern fits the merchant business model | Record rationale and set proportionate monitoring

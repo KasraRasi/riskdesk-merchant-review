@@ -1,0 +1,85 @@
+{
+  "synthetic_only": true,
+  "dataset_size": 360,
+  "threshold_results": [
+    {
+      "threshold": 25,
+      "n": 360,
+      "tp": 63,
+      "fp": 23,
+      "fn": 4,
+      "tn": 270,
+      "precision": 0.7326,
+      "recall": 0.9403,
+      "specificity": 0.9215,
+      "review_queue": 86,
+      "review_rate": 0.2389
+    },
+    {
+      "threshold": 35,
+      "n": 360,
+      "tp": 58,
+      "fp": 8,
+      "fn": 9,
+      "tn": 285,
+      "precision": 0.8788,
+      "recall": 0.8657,
+      "specificity": 0.9727,
+      "review_queue": 66,
+      "review_rate": 0.1833
+    },
+    {
+      "threshold": 45,
+      "n": 360,
+      "tp": 52,
+      "fp": 3,
+      "fn": 15,
+      "tn": 290,
+      "precision": 0.9455,
+      "recall": 0.7761,
+      "specificity": 0.9898,
+      "review_queue": 55,
+      "review_rate": 0.1528
+    },
+    {
+      "threshold": 55,
+      "n": 360,
+      "tp": 43,
+      "fp": 1,
+      "fn": 24,
+      "tn": 292,
+      "precision": 0.9773,
+      "recall": 0.6418,
+      "specificity": 0.9966,
+      "review_queue": 44,
+      "review_rate": 0.1222
+    },
+    {
+      "threshold": 70,
+      "n": 360,
+      "tp": 25,
+      "fp": 0,
+      "fn": 42,
+      "tn": 293,
+      "precision": 1.0,
+      "recall": 0.3731,
+      "specificity": 1.0,
+      "review_queue": 25,
+      "review_rate": 0.0694
+    },
+    {
+      "threshold": 85,
+      "n": 360,
+      "tp": 14,
+      "fp": 0,
+      "fn": 53,
+      "tn": 293,
+      "precision": 1.0,
+      "recall": 0.209,
+      "specificity": 1.0,
+      "review_queue": 14,
+      "review_rate": 0.0389
+    }
+  ],
+  "threshold_selection": "35 is illustrative and NOT calibrated on real loss outcomes; review queue rather than decline automation."
+}
